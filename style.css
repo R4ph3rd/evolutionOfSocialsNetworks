@@ -1,0 +1,76 @@
+@font-face{
+    font-family: 'Open Sans Regular';
+    src: url('./fonts/OpenSans-Regular.ttf') format('ttf');
+    font-weight:500;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    padding: 0;
+    margin:0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    left:0;
+    top:0;
+    width:100vw;
+    height:100vh;
+} 
+
+
+canvas {
+    background:linear-gradient(to right, rgb(247, 238, 239), rgb(245, 234, 219));
+}
+
+
+.nodeCard{
+    display:block;
+    position:absolute;
+    width:max-content;
+    height:max-content;
+    min-width:100px;
+    max-width:200px;
+    max-height:200px;
+    padding:10px 15px;
+    background: linear-gradient(to bottom, #F7F7F7, white);
+    box-shadow: 2px 2px 8px rgba(0,0,0, .12);
+    border-radius:12px;
+
+    opacity: 0;
+    transition: .3s ease-out;
+}
+
+.nodeCard * {
+    position:relative;
+}
+
+.date{
+    font-family:'Open Sans';
+    font-weight:600;
+    text-transform: uppercase;
+    color: rgb(188, 188, 192);
+    font-size:12px;
+    margin-bottom:8px;
+}
+
+h3{
+    font-family:'Open Sans';
+    font-weight:700;
+    font-size:18px;
+    color:rgb(44, 44, 48);
+}
+
+h3 + p{
+    font-family:'Open Sans';
+    font-weight:300;
+    font-size:14px;
+    color: rgb(100, 100, 109);
+}
+
+.visible{
+    opacity:1 !important;
+    transition: .3s ease-out;
+}
