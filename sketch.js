@@ -5,7 +5,7 @@ let dateRange = {
     max : 0
 }
 let graphRange = {
-    min:0,
+    min:150,
     max:window.innerWidth
 }
 
@@ -63,12 +63,18 @@ function setup () {
 
 
     let heightLine = height / (Array.from(socials_networks.socials).length + 1) ;
+    let iconBar = document.getElementById('iconsBar');
+    iconBar.style.paddingTop = `calc(${heightLine}px - 1vh - 15px)`;
+    iconBar.style.paddingBottom = `calc(${heightLine}px - 1vh - 15px)`;
+    iconBar.style.gridRowGap = heightLine - 32 + 'px';
 
     socials_networks.socials.forEach( (network) => {
         networks.push( new Network(network.network, network.creation, network.changelog, createVector(definePos(network.creation), heightLine)));
         heightLine += height / (Array.from(socials_networks.socials).length + 1) ;
+        setIcons(iconBar, network.network);
     })
-  }
+
+}
 
 
 
@@ -90,7 +96,7 @@ function draw() {
 function mouseClicked(){
     for (let network of networks){
         network.changelog.find( node => {
-            if (isHover(node.pos, nodeSize )){
+            if (isHover(node.pos, nodeSize/2 )){
                 if (!similarsShow.includes(node.slug)){
                     similarsShow.push(node.slug);
                 } else {
@@ -136,10 +142,19 @@ function defineRanges(){
     })
 
 
-    graphRange.min = 50 ;
+    graphRange.min = 150 ;
     let rangeBetweenDays = abs(new Date('2000-01-01').valueOf() - new Date('2000-02-01').valueOf());
     graphRange.max = nodeSize * dateRange.max / rangeBetweenDays;
     graphRange.max = graphRange.max > 16000 ? 16000 : graphRange.max
+}
+
+
+
+function setIcons(target, network){
+    let icon = document.createElement('div');
+    icon.classList = `icon ${network.toLowerCase()}`;
+    // icon.style.marginTop = heightLine - (16 * (Array.from(socials_networks.socials).length) - 1) + 'px';
+    target.appendChild(icon);
 }
 
 

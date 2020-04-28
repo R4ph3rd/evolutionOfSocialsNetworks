@@ -61,7 +61,7 @@ class Node {
     }
 
     display(){
-        if (isHover(this.pos, nodeSize + 10)){
+        if (isHover(this.pos, (nodeSize/2) + 10)){
             push()
                 noStroke();
                 fill(245);

@@ -74,3 +74,30 @@ h3 + p{
     opacity:1 !important;
     transition: .3s ease-out;
 }
+
+#iconsBar{
+    position:fixed;
+    top:1vh;
+    left:1vh;
+    width:100px;
+    height:98vh;
+
+    display:grid;
+    justify-content: center;
+    /* padding-top:20px;
+    padding-bottom:20px; */
+    background-color:#F7F7F7;
+    border-radius:8px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.12);
+}
+
+.icon{
+    width:32px;
+    height:32px;
+}
+
+.facebook{ background-image: url('./data/icons/social-006_facebook.png') }
+.twitter{ background-image: url('./data/icons/social-005_twitter.png') }
+.instagram{ background-image: url('./data/icons/social-038_instagram.png') }
+.flickr{ background-image: url('./data/icons/social-004_flickr.png') }
+.tumblr{ background-image: url('./data/icons/social-015_tumblr.png') }
