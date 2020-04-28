@@ -16,6 +16,7 @@ let nodeSize = 20;
 let similarsShow = [];
 
 // colors by category
+let grd ;
 let colors = [
     {
         color : '#333399',
@@ -100,7 +101,7 @@ function draw() {
         background(245, 234, 219);
     pop();
 
-//   rect( 0, 0, width, height );
+    displayEras();
     
     // links between nodes
     for (let slug of similarsShow){
@@ -219,6 +220,26 @@ function drawLinksBetweenNodes(array){
 
 
 
+function displayEras(){
+    let endPreviousEra = graphRange.min - 10 ;
+    for (let era in socials_networks.eras){
+        let widthEra = definePos(socials_networks.eras[era]) - endPreviousEra ;
+        push();
+            fill(255,90);
+            noStroke();
+            rect(endPreviousEra + 4, 0.01 * height, widthEra - 4, 0.99 * height, 8);
+
+            textSize(24);
+            textStyle(BOLD);
+            fill(30,200);
+            text(era.toUpperCase(), endPreviousEra + (widthEra/2), 50);
+        pop();
+        
+        endPreviousEra += widthEra ;
+    }
+}
+
+
 
 const defineColor = (category) => {
     let definedColor = colors.find( c => c.category == category);
@@ -246,7 +267,7 @@ const definePos = (date) => {
     let testdate = date.split('-').reverse().join('-')
     let dateJS = new Date(testdate).valueOf();
 
-    let x = map(dateJS, dateRange.min, dateRange.max, graphRange.min, graphRange.max - 250)
+    let x = map(dateJS, dateRange.min, dateRange.max, graphRange.min, graphRange.max - 250);
     
     return x ;
 }
