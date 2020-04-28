@@ -1,5 +1,6 @@
 let socials_networks ;
 let networks = [];
+let eras = [];
 let dateRange = {
     min : new Date(2080-06-08).valueOf(),
     max : 0
@@ -15,9 +16,10 @@ let nodeSize = 20;
 // INTERACTIONs SETTINGS
 let similarsShow = [];
 
-// colors by category
+// COLORS SETTINGS
 let grd ;
-let colors = [
+let eraColor ;
+let colors = [ // for nodes / links
     {
         color : '#333399',
         category : ''
@@ -62,6 +64,9 @@ function setup () {
     createCanvas(graphRange.max, window.innerHeight);
     smooth();
     colorMode(RGB, 255,255,255,255);
+
+    eraColor = color(255,90);
+    defineEras(socials_networks.eras);
 
     grd = drawingContext.createLinearGradient(0, 0, width, height);
     grd.addColorStop(0, 'rgb(247, 238, 239)');   
@@ -112,8 +117,6 @@ function draw() {
         }
 
         drawLinksBetweenNodes(slugArray);
-
-        // console.log(slugArray)
     }
 
     for (let network of networks){
@@ -135,8 +138,6 @@ function mouseClicked(){
             }
         })
     }
-
-    console.log(mouseX, mouseY)
     // redraw();
 }
 
@@ -150,7 +151,6 @@ function loadJSON(path){
           if (xobj.readyState == 4 && xobj.status == "200") {
             // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
             return JSON.parse(xobj.responseText);
-            // callback(xobj.responseText);
           }
     };
     xobj.send(null);  
@@ -186,7 +186,6 @@ function defineRanges(){
 function setIcons(target, network){
     let icon = document.createElement('div');
     icon.classList = `icon ${network.toLowerCase()}`;
-    // icon.style.marginTop = heightLine - (16 * (Array.from(socials_networks.socials).length) - 1) + 'px';
     target.appendChild(icon);
 }
 
@@ -194,7 +193,6 @@ function setIcons(target, network){
 
 
 function drawLinksBetweenNodes(array){
-
     for (let node of array){
         if (array[array.indexOf(node) + 1] != undefined){
 
@@ -214,29 +212,41 @@ function drawLinksBetweenNodes(array){
             pop();
         }
     }
-
     // redraw();
 }
 
 
 
 function displayEras(){
-    let endPreviousEra = graphRange.min - 10 ;
-    for (let era in socials_networks.eras){
-        let widthEra = definePos(socials_networks.eras[era]) - endPreviousEra ;
+    for (let era of eras){
         push();
-            fill(255,90);
+            fill(eraColor);
             noStroke();
-            rect(endPreviousEra + 4, 0.01 * height, widthEra - 4, 0.99 * height, 8);
+            rect(era.start, 0.01 * height, era.width, 0.99 * height, 8);
 
             textSize(24);
             textStyle(BOLD);
             fill(30,200);
-            text(era.toUpperCase(), endPreviousEra + (widthEra/2), 50);
+            text(era.title, era.titlePos, 50);
         pop();
-        
+    }
+}
+
+
+
+const defineEras = (erasArray) => {
+    let endPreviousEra = graphRange.min - 50 ;
+    for (let era in erasArray){
+        let widthEra = definePos(erasArray[era]) - endPreviousEra ;
+        eras.push({
+            start : endPreviousEra + 4,
+            width : widthEra - 4,
+            title: era.toUpperCase(),
+            titlePos : endPreviousEra + (widthEra/2)
+        });
         endPreviousEra += widthEra ;
     }
+    
 }
 
 
