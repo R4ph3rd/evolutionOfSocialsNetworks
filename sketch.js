@@ -86,6 +86,20 @@ function windowResized() {
 
 function draw() {
     clear();
+    
+    // links between nodes
+    for (let slug of similarsShow){
+        let slugArray = [];
+        for (let network of networks){
+            let networkNodesArray = network.changelog.filter ( node => node.slug == slug)
+            slugArray = slugArray.concat(networkNodesArray);
+        }
+
+        drawLinksBetweenNodes(slugArray);
+
+        // console.log(slugArray)
+    }
+
     for (let network of networks){
         network.display();
     }
@@ -156,6 +170,33 @@ function setIcons(target, network){
     // icon.style.marginTop = heightLine - (16 * (Array.from(socials_networks.socials).length) - 1) + 'px';
     target.appendChild(icon);
 }
+
+
+
+
+function drawLinksBetweenNodes(array){
+
+    for (let node of array){
+        if (array[array.indexOf(node) + 1] != undefined){
+
+            let node1 = array[array.indexOf(node) + 1];
+            let c1 = createVector(map(noise(0.05, 10, 20), 0 , 1, -150, 150), map(noise(0.1, 2, 87), 0 , 1, -150, 150));
+            let c2 = createVector(map(noise(0.02, 5, 12), 0 , 1, -150, 150), map(noise(0.04, 15, 30), 0 , 1, -150, 150));
+
+            push();
+                strokeWeight(.5);
+                stroke(node.colorNode);
+                noFill();
+                curve(node.pos.x + c1.x, node.pos.y + c1.y,
+                    node.pos.x, node.pos.y, 
+                    node1.pos.x, node1.pos.y, 
+                    node1.pos.x + c2.x, node1.pos.y + c2.y
+                );            
+            pop();
+        }
+    }
+}
+
 
 
 
