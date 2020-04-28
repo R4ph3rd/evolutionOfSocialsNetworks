@@ -7,13 +7,16 @@ class Network {
             return new Node(log, pos, name);
         }) ;
         this.posLine = pos ;
-        this.colorLine = color('#000000');
+        this.colorLine = hexToRgb('#000000');
+        this.colorLine = color( this.colorLine.r, this.colorLine.g, this.colorLine.b);
+        this.colorLine.setAlpha(100);
     }
 
     display(){
 
         push();
             fill(this.colorLine);
+            noStroke();
             text(this.name, this.posLine.x, this.posLine.y - 50);
 
             rect(this.posLine.x, this.posLine.y - 10, 8, 20, 2);
@@ -22,12 +25,17 @@ class Network {
         push()
             strokeWeight(.5);
             stroke(this.colorLine);
-            line(this.posLine.x, this.posLine.y, width, this.posLine.y);
+            // console.log(this.colorLine)
+            line(this.posLine.x + 8, this.posLine.y, width, this.posLine.y);
+
+            // console.log(this.colorLine)
         pop();
 
         for (let node of this.changelog){
             node.display();
         }
+
+        // redraw();
         
     }
 }

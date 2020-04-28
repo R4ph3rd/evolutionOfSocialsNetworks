@@ -60,7 +60,11 @@ function setup () {
     
     createCanvas(graphRange.max, window.innerHeight);
     smooth();
+    colorMode(RGB, 255,255,255,255);
 
+    grd = drawingContext.createLinearGradient(0, 0, width, height);
+    grd.addColorStop(0, 'rgb(247, 238, 239)');   
+    grd.addColorStop(1, 'rgb(245, 234, 219)');
 
     let heightLine = height / (Array.from(socials_networks.socials).length + 1) ;
     let iconBar = document.getElementById('iconsBar');
@@ -74,6 +78,9 @@ function setup () {
         setIcons(iconBar, network.network);
     })
 
+    // noLoop();
+
+    
 }
 
 
@@ -85,7 +92,15 @@ function windowResized() {
 
 
 function draw() {
-    clear();
+    // clear();
+    push();
+        // drawingContext.fillStyle = grd;
+        // noStroke();
+        // rect(0, 0, graphRange.max, window.innerHeight);
+        background(245, 234, 219);
+    pop();
+
+//   rect( 0, 0, width, height );
     
     // links between nodes
     for (let slug of similarsShow){
@@ -119,6 +134,9 @@ function mouseClicked(){
             }
         })
     }
+
+    console.log(mouseX, mouseY)
+    // redraw();
 }
 
 
@@ -195,6 +213,8 @@ function drawLinksBetweenNodes(array){
             pop();
         }
     }
+
+    // redraw();
 }
 
 
@@ -212,6 +232,7 @@ const defineColor = (category) => {
             filteredColors[i].category = category;
         } else {
             definedColor = colors[0].color;
+            
         }
     } else {
         definedColor = definedColor.color
@@ -234,3 +255,23 @@ const definePos = (date) => {
 const isHover = (pos, rad) => {
     return dist(mouseX, mouseY, pos.x, pos.y) < rad ;
 }
+
+
+// CONVERT COLORS
+const componentToHex = (c) => {
+    let hex = c.toString(16);
+    return hex.length == 1 ? "0" + hex : hex;
+}
+  
+const rgbToHex = (r, g, b) => {
+    return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+}
+
+const hexToRgb = (hex) => {
+    var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+    return result ? {
+      r: parseInt(result[1], 16),
+      g: parseInt(result[2], 16),
+      b: parseInt(result[3], 16)
+    } : null;
+  }
