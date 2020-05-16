@@ -47,6 +47,7 @@ class Node {
         this.date = log.date ;
         this.category = log.category ;
         this.slug = log.slug ;
+        this.desc = log.desc != undefined ? log.desc : ''
         this.pos = createVector(definePos(log.date), posLine.y) ;
         this.id = networkName + '_' + this.feature.trim().toLowerCase();
         this.colorNode = defineColor(log.category);
@@ -61,7 +62,7 @@ class Node {
         div.innerHTML = `
             <span class="date">${this.date}</span>
             <h3>${this.feature}</h3>
-            <p class="desc">Lorem ipsum maldn dsdnsdhe dds dqdshdbsqjd hsq sqdsqk dbh kdb qskdbh </p>
+            <p class="desc">${this.desc}</p>
 
         `
 
