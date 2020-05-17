@@ -9,14 +9,14 @@ class Network {
         this.posLine = pos ;
         this.colorLine = hexToRgb('#FFFFFF');
         this.colorLine = color( this.colorLine.r, this.colorLine.g, this.colorLine.b);
-        this.colorLine.setAlpha(100);
+        this.colorLine.setAlpha(130);
     }
 
     display(){
 
         push();
             fill(this.colorLine);
-            noStroke();
+            noStroke(); 
             text(this.name, this.posLine.x, this.posLine.y - 50);
 
             rect(this.posLine.x, this.posLine.y - 10, 8, 20, 2);
