@@ -5,39 +5,312 @@
             "creation": "18-02-2004",
             "changelog": [
                 {
-                    "feature": "comments",
-                    "date": "22-03-2004",
-                    "category": "comments",
-                    "slug": "reaction",
-                    "desc": "Lorem ipsum mald hsq sqdsqk dbh kdb qskdbh "
+                    "feature": "Wirehog",
+                    "date": "10-08-2004",
+                    "category": "product",
+                    "slug": "wirehog",
+                    "desc": "To compete with growing campus-only service i2hub, Zuckerberg launches Wirehog. It is a precursor to Facebook Platform applications. "
                 },
                 {
-                    "feature": "comments-2",
-                    "date": "24-04-2004",
-                    "category": "comments",
-                    "slug": "message",
-                    "desc": "Lorem ipsum maldn dsdnsdhe dds dqdshdbsqjd hsq sqdsqk dbh kdb qskdbh "
+                    "feature": "Facebook high school version",
+                    "date": "10-09-2005",
+                    "category": "product",
+                    "slug": "facebook high school version",
+                    "desc": "Facebook launches a high school version of the website. "
                 },
                 {
-                    "feature": "comments-3",
-                    "date": "02-05-2004",
-                    "category": "comments",
-                    "slug": "reaction",
-                    "desc": "Lorem ipsum maldn dsdnsdhe dds dqdshdbsqjd hsq sqdsqk dbh kdb qskdbh "
+                    "feature": "photos",
+                    "date": "25-10-2005",
+                    "category": "photos",
+                    "slug": "photos",
+                    "desc": "Facebook launches its photos feature with no restrictions on storage (but without the ability to tag friends). "
                 },
                 {
-                    "feature": "photo",
-                    "date": "18-08-2004",
-                    "category": "photo",
-                    "slug": "post",
-                    "desc": "Lorem ipsum maldn  qskdbh "
+                    "feature": "Tag friends in photos ",
+                    "date": "10-12-2005",
+                    "category": "photos",
+                    "slug": "tag friends in photos ",
+                    "desc": "Facebook introduces the ability to tag friends in photos. "
                 },
                 {
-                    "feature": "photo-filtre",
-                    "date": "09-09-2004",
-                    "category": "photo",
-                    "slug": "filtre",
-                    "desc": "Lorem ipsum maldn dsdnsdhe dds dqdshdbsqjd n dsdnsdhe dds dqdshdbsqjd n dsdnsdhe dds dqdshdbsqjd hsq sqdsqk dbh kdb qskdbh "
+                    "feature": "Facebook notes",
+                    "date": "22-08-2006",
+                    "category": "blog",
+                    "slug": "facebook notes",
+                    "desc": "Facebook launches a blogging feature known as 'Facebook Notes'. "
+                },
+                {
+                    "feature": "News Feed",
+                    "date": "06-09-2006",
+                    "category": "feed",
+                    "slug": "news Feed",
+                    "desc": "Facebook launches News Feed. The original news feed is an algorithmically generated and constantly refreshing summary of updates about the activities of one's friends. The concept was relatively new at the time, with Twitter having launched only a few months in advance.  "
+                },
+                {
+                    "feature": "Facebook on mobile",
+                    "date": "06-09-2006",
+                    "category": "smartphone",
+                    "slug": "facebook on mobile",
+                    "desc": "Facebook launches m.facebook.com and officially announces mobile support. "
+                },
+                {
+                    "feature": "Facebook Platform",
+                    "date": "24-05-2007",
+                    "category": "for developer",
+                    "slug": "facebook Platform",
+                    "desc": "Facebook announces Facebook Platform for developers to build applications on top of Facebook's social graph."
+                },
+                {
+                    "feature": "Facebook Credits",
+                    "date": "14-11-2008",
+                    "category": "in-app purchase",
+                    "slug": "facebook Credits",
+                    "desc": "Facebook launches Facebook Credits in order to help users purchase Facebook gifts."
+                },
+                {
+                    "feature": "Like button",
+                    "date": "09-02-2009",
+                    "category": "reacts",
+                    "slug": "like",
+                    "desc": "Facebook activates the Facebook like button."
+                },
+                {
+                    "feature": "Tag",
+                    "date": "10-09-2009",
+                    "category": "tag",
+                    "slug": "tag",
+                    "desc": "Facebook announces a feature whereby people can @-tag friends in their status updates and comments."
+                },
+                {
+                    "feature": "Community Pages",
+                    "date": "19-04-2010",
+                    "category": "sharing",
+                    "slug": "community Pages",
+                    "desc": "Facebook introduces Community Pages, which are Pages that are populated with articles from Wikipedia."
+                },
+                {
+                    "feature": "Like on individual comments",
+                    "date": "20-06-2010",
+                    "category": "reacts",
+                    "slug": "like on individual comments",
+                    "desc": "Facebook introduces the option to Like individual comments. "
+                },
+                {
+                    "feature": "Profile page",
+                    "date": "03-12-2010",
+                    "category": "profile",
+                    "slug": "profile page",
+                    "desc": "Facebook launches a redesign that emphasizes the most important parts of someone's life, including one's biographic information, photos, education, work experience, and important relationships. It replaces the tabs at the top of each profile page with links on the left side of the page"
+                },
+                {
+                    "feature": "Video chat in Facebook's website interface",
+                    "date": "06-07-2011",
+                    "category": "video chat",
+                    "slug": "video chat in Facebook's website interface",
+                    "desc": "Facebook partners with Skype to add video chat and updates its website interface."
+                },
+                {
+                    "feature": "Video chat in Facebook's website interface",
+                    "date": "06-07-2011",
+                    "category": "video chat",
+                    "slug": "video chat in Facebook's website interface",
+                    "desc": "Facebook partners with Skype to add video chat and updates its website interface."
+                },
+                {
+                    "feature": "Facebook messenger on IOS, Android and Blackberry",
+                    "date": "09-08-2011",
+                    "category": "facebook messenger",
+                    "slug": "facebook messenger on IOS, Android and Blackberry",
+                    "desc": "Facebook Messenger is launched for Android and IOS. October 19, 2011 update makes the app available to Blackberry os."
+                },
+                {
+                    "feature": "Character limit update on status from 500 to 63,206",
+                    "date": "09-08-2011",
+                    "category": "status",
+                    "slug": "Character limit update on status",
+                    "desc": "Facebook increases the character limit for status update posts from 500 to 5,000 in September and to 63,206 on November 30."
+                },
+                {
+                    "feature": "Subsribe",
+                    "date": "14-09-2011",
+                    "category": "subscribe",
+                    "slug": "subscribe",
+                    "desc": "Facebook allows people to subscribe to non-friends and to set the extent to which they receive updates from their existing friends and people they are subscribing to."
+                },
+                {
+                    "feature": "Facebook Platform with Heroku",
+                    "date": "14-09-2011",
+                    "category": "for developer",
+                    "slug": "facebook Platform",
+                    "desc": "Facebook partners with Heroku for Facebook application development using the Facebook Platform."
+                },
+                {
+                    "feature": "emoticons",
+                    "date": "14-09-2011",
+                    "category": "reacts",
+                    "slug": "emoticons",
+                    "desc": "Facebook rolls out detailed and fine-grained emoticons to express different actions and emotional states in one's status updates (experimental launch January 30, official launch with universal availability April 9)."
+                },
+                {
+                    "feature": "Video Autoplay",
+                    "date": "15-04-2013",
+                    "category": "video",
+                    "slug": "video player",
+                    "desc": "Facebook launches a new timeline with Video Autoplay. "
+                },
+                {
+                    "feature": "Stickers",
+                    "date": "20-06-2013",
+                    "category": "reacts",
+                    "slug": "stickers",
+                    "desc": "Facebook launches Stickers, initially only for its iOS apps in April, but later expanding to its web version in July."
+                },
+                {
+                    "feature": "Edit posts",
+                    "date": "26-09-2013",
+                    "category": "status",
+                    "slug": "edit posts",
+                    "desc": "Facebook begins letting people edit their posts and comments after publishing."
+                },
+                {
+                    "feature": "Trending Topics",
+                    "date": "16-01-2014",
+                    "category": "trends",
+                    "slug": "trending topics",
+                    "desc": "Facebook launches Trending Topics for its web version in the US, UK, Canada, India, and Australia. This is based on feedback to a pilot version tested both on the web and mobile starting August 2013."
+                },
+                {
+                    "feature": "Look Back",
+                    "date": "04-02-2014",
+                    "category": "video",
+                    "slug": "look back",
+                    "desc": "On February 4, on the occasion of its tenth anniversary, Facebook introduces its Look Back feature that creates an automated video for each person looking back on the person's life as recorded on Facebook. On February 7, Facebook adds the ability to edit the Look Back videos."
+                },
+                {
+                    "feature": "Deep Face",
+                    "date": "17-03-2014",
+                    "category": "facial recognition",
+                    "slug": "facial recongnition",
+                    "desc": "Facebook's face recognition algorithm (DeepFace) reaches near-human accuracy in identifying faces."
+                },
+                {
+                    "feature": "Anonymous login",
+                    "date": "30-04-2014",
+                    "category": "login",
+                    "slug": "anonymous login",
+                    "desc": "Facebook launches anonymous login so that people can use apps without giving them their data."
+                },
+                {
+                    "feature": "Facebook Slingshot",
+                    "date": "18-06-2014",
+                    "category": "photos",
+                    "slug": "facebook slingshot",
+                    "desc": "Facebook releases Facebook Slingshot, an instant messaging software application for sharing photos and videos with friends, for Android and iOS devices."
+                },
+                {
+                    "feature": "Save",
+                    "date": "21-07-2014",
+                    "category": "feed",
+                    "slug": "save",
+                    "desc": "Facebook launches Save, a read-it-later feature that allows users to save links, places, and media pages for later perusal."
+                },
+                {
+                    "feature": "Friend-to-friend payment",
+                    "date": "17-03-2015",
+                    "category": "payment",
+                    "slug": "friend-to-friend payment",
+                    "desc": "Facebook introduces a free friend-to-friend payment service within its Messenger app. This is touted by some tech journalists as potential competition for PayPal's Venmo service."
+                },
+                {
+                    "feature": "Instant Articles",
+                    "date": "12-05-2015",
+                    "category": "feed",
+                    "slug": "instant articles",
+                    "desc": "Facebook launches 'Instant Articles' for Publishers.[312] Publishers who use Instant Articles can opt in to have some of their articles shown to mobile users inside Facebook's app itself, without users having to leave the app and visit the customer's website. Initial launch partners include BuzzFeed, the New York Times, National Geographic and six others. The article as displayed on Facebook mimics the article on the website in terms of layout."
+                },
+                {
+                    "feature": "GIFs",
+                    "date": "29-05-2015",
+                    "category": "reacts",
+                    "slug": "gifs",
+                    "desc": "Facebook launches 'Instant Articles' for Publishers.[312] Publishers who use Instant Articles can opt in to have some of their articles shown to mobile users inside Facebook's app itself, without users having to leave the app and visit the customer's website. Initial launch partners include BuzzFeed, the New York Times, National Geographic and six others. The article as displayed on Facebook mimics the article on the website in terms of layout."
+                },
+                {
+                    "feature": "features for facebook business pages",
+                    "date": "06-06-2015",
+                    "category": "pages",
+                    "slug": "pages",
+                    "desc": "Facebook adds more features for pages to make it easier for businesses to use them. These include: allowing pages to display how quickly they respond to messages, allowing pages to send saved replies to messages, allowing pages to use private messages for customer support, and adding buy button integration to pages."
+                },
+                {
+                    "feature": "Facebook Live for celebrities",
+                    "date": "24-08-2015",
+                    "category": "live",
+                    "slug": "live-streaming",
+                    "desc": "On August 5, Facebook launches live-streaming, initially restricted only to celebrities. Subsequently, on August 12, it announces that the feature will be made available to journalists and those with verified profiles."
+                },
+                {
+                    "feature": "Facebook Live for all in US",
+                    "date": "13-01-2016",
+                    "category": "live",
+                    "slug": "facebook live for all in the US",
+                    "desc": "Facebook Live that was originally launched in August 2015 and limited to celebrities, becomes available to all U.S. iPhone users on January 28. On February 18, the global rollout begins. It becomes available to U.S. Android users in the week following February 26. Starting March 1, Facebook starts pushing live content more compared to older content. Commentators describe Facebook Live as marking Facebook's entry into the live-streaming space, competing with Twitter-owned Periscope."
+                },
+                {
+                    "feature": "Facebook Reactions",
+                    "date": "24-02-2016",
+                    "category": "reacts",
+                    "slug": "facebook reactions",
+                    "desc": "Facebook releases Facebook Reactions to the general public. The feature allows people to use five additional reactions beyond just the 'like' action to convey their reaction to a post. The new reactions are 'love', 'haha', 'wow', 'sad', and 'anger'.Each user can add at most one reaction to a post."
+                },
+                {
+                    "feature": "Basketball Game",
+                    "date": "18-03-2016",
+                    "category": "games",
+                    "slug": "basketball game",
+                    "desc": "Facebook provide 'Basketball Game' function in Messenger."
+                },
+                {
+                    "feature": "Secret soccer game",
+                    "date": "15-06-2016",
+                    "category": "games",
+                    "slug": "secret soccer game",
+                    "desc": "Facebook introduces the secret Messenger soccer game, similar to the basketball game."
+                },
+                {
+                    "feature": "Marketplace",
+                    "date": "03-08-2016",
+                    "category": "in-app purchase",
+                    "slug": "marketplace",
+                    "desc": "In the US, UK, Australia, and New Zealand, Facebook launches Marketplace, a way to buy and sell items through Facebook. Marketplace appears as a tab in the mobile app. The feature has been compared to Craigslist."
+                },
+                {
+                    "feature": "Reactions and mentions inside Messenger",
+                    "date": "23-03-2017",
+                    "category": "reacts, tag",
+                    "slug": "reactions and mentions inside Messenger",
+                    "desc": "Facebook adds reactions and mentions inside Messenger (both the app and the web experience)."
+                },
+                {
+                    "feature": "Reactions to comments",
+                    "date": "03-05-2017",
+                    "category": "reacts",
+                    "slug": "reactions to comments",
+                    "desc": "Facebook adds reactions to comments. Reactions were previously available on messages (sent via Messenger) and Facebook posts but not in comments."
+                },
+                {
+                    "feature": "Facebook Creator",
+                    "date": "16-11-2017",
+                    "category": "video",
+                    "slug": "facebook creator",
+                    "desc": "After live videos having skyrocketed on Facebook in the last months, the social network launches Facebook Creator, an app for mobile video posts offering influencers Live Creative Kit for adding intros and outros to broadcasts, a unified inbox of Facebook and Instagram comments plus Messenger chats, cross-posting to Twitter and expansive analytics."
+                },
+                {
+                    "feature": "Messenger Kids",
+                    "date": "04-12-2017",
+                    "category": "facebook messenger",
+                    "slug": "messenger kids",
+                    "desc": "Facebook launches Messenger Kids, a version of Messenger for children from ages six to 12. The app does not require a Facebook account (illegal for this range of age). Rather, parents are able to manage a child’s Messenger Kids app from their Facebook account, controlling which friends and family members the child is able to contact."
                 }
             ]
         },
@@ -675,6 +948,173 @@
                     "desc": "Pinterest simultaneously launches three products related to visual search: (1) Lens, which allows users to take photos of objects to find Pins related those objects; (2) Instant Ideas, a circle button that appears on each Pin that, when tapped, displays related Pins; and (3) Shop the Look, a circle button that appears on each individual item within a photo that, when tapped, displays Pins related to that item."
                 }
 
+            ]
+        },
+        {
+            "network": "Youtube",
+            "creation": "14-02-2005",
+            "changelog": [
+                {
+                    "feature": "HTML embedding videos",
+                    "date": "06-07-2005",
+                    "category": "for developer",
+                    "slug": "",
+                    "desc": ""
+                },
+                {
+                    "feature": "Top videos page",
+                    "date": "22-07-2005",
+                    "category": "layout",
+                    "slug": "",
+                    "desc": ""
+                },
+                {
+                    "feature": "Rating system",
+                    "date": "17-08-2005",
+                    "category": "reactions",
+                    "slug": "",
+                    "desc" : "Add a 5-star rating system"
+                },
+                {
+                    "feature": "Playlists",
+                    "date": "07-10-2005",
+                    "category": "content",
+                    "slug": "",
+                    "desc" : "Add the possibility to users to create playlists of videos and play it in following."
+                },
+                {
+                    "feature": "Fullscreen view",
+                    "date": "22-10-2005",
+                    "category": "layout",
+                    "slug": "",
+                    "desc": "Videos can now be seen in fullscreen !"
+                },
+                {
+                    "feature": "Subscriptions",
+                    "date": "31-10-2005",
+                    "category": "content",
+                    "slug": "",
+                    "desc": "Users can subscribe to channels of other users."
+                },
+                {
+                    "feature": "Personalization of profiles",
+                    "date": "31-12-2005",
+                    "category": "profile",
+                    "slug": "",
+                    "desc": "Users can add a banner, a photo profile, description and other links in bio of their profile."
+                },
+                {
+                    "feature": "Time limit extended",
+                    "date": "02-02-2006",
+                    "category": "video",
+                    "slug": "",
+                    "desc": "Videos can now last 10 minutes."
+                },
+                {
+                    "feature": "Comments",
+                    "date": "02-05-2006",
+                    "category": "reactions",
+                    "slug": "",
+                    "desc": "Users can react to videos in comments."
+                },
+                {
+                    "feature": "Upload from cell phones",
+                    "date": "02-07-2006",
+                    "category": "content",
+                    "slug": "",
+                    "desc": "Add the possibility to upload from cell phones in roaming."
+                },
+                {
+                    "feature": "History",
+                    "date": "02-09-2006",
+                    "category": "content",
+                    "slug": "",
+                    "desc": "Store an history of videos viewed."
+                },
+                {
+                    "feature": "480p quality",
+                    "date": "02-03-2008",
+                    "category": "video",
+                    "slug": "",
+                    "desc": "Increase the maximum quality to 480p."
+                },
+                {
+                    "feature": "Video analytics",
+                    "date": "22-03-2008",
+                    "category": "content",
+                    "slug": "",
+                    "desc": "Users can monitor the activity of their channel thanks to a new analytic statistic tool."
+                },
+                {
+                    "feature": "720p quality",
+                    "date": "22-07-2009",
+                    "category": "video",
+                    "slug": "",
+                    "desc": "Increase the maximum quality to 720p."
+                },
+                {
+                    "feature": "1080p quality",
+                    "date": "13-11-2009",
+                    "category": "video",
+                    "slug": "",
+                    "desc": "Increase the maximum quality to 1080p."
+                },
+                {
+                    "feature": "Automatic speech recognition",
+                    "date": "18-12-2009",
+                    "category": "video",
+                    "slug": "",
+                    "desc": "Subtitles can be displayed on the bottom on the video. Translations are processed by a an speech-to-text algorithm."
+                },
+                {
+                    "feature": "Vevo",
+                    "date": "29-12-2009",
+                    "category": "content",
+                    "slug": "",
+                    "desc": "Officials musical artists are granted to VEVO channels. It offers many advantages in promoting, advertising, and provides a \"label\" to ensure authenticity of the author."
+                },
+                {
+                    "feature": "Thumbs rating system",
+                    "date": "05-03-2010",
+                    "category": "reactions",
+                    "slug": "",
+                    "desc": "Rating system is changed to a boolean new one : thumb up or thumb down, green thumb or red thumb."
+                },
+                {
+                    "feature": "4K quality",
+                    "date": "12-07-2010",
+                    "category": "video",
+                    "slug": "",
+                    "desc": "Increase the maximum quality to 4K."
+                },
+                {
+                    "feature": "60 fps quality",
+                    "date": "12-10-2014",
+                    "category": "video",
+                    "slug": "",
+                    "desc": "Videos can be seen in 60 fps (before was 30fps)."
+                },
+                {
+                    "feature": "360 videos",
+                    "date": "02-03-2015",
+                    "category": "video",
+                    "slug": "",
+                    "desc": "Youtube support now the 360 videos. It ables to drag on the video to move the direction of the camera."
+                },
+                {
+                    "feature": "Youtube RED",
+                    "date": "02-11-2015",
+                    "category": "content",
+                    "slug": "",
+                    "desc": ""
+                },
+                {
+                    "feature": "Increase of ads before videos",
+                    "date": "02-10-2019",
+                    "category": "advertising",
+                    "slug": "",
+                    "desc": "Up to two ads can be seen before videos. Youtube is one the more restrictive plateforms about skipping ads. Users can't skip some ads that last 12 seconds or some that last 30 seconds."
+                }
             ]
         }
     ],
