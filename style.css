@@ -105,11 +105,16 @@ h3 + p{
 .icon{
     width:32px;
     height:32px;
+    background-size:cover;
     filter: brightness(0.7) invert(.7)  hue-rotate(120deg) saturate(100%);
 }
 
-.facebook{ background-image: url('./data/icons/social-006_facebook.png') }
-.twitter{ background-image: url('./data/icons/social-005_twitter.png') }
-.instagram{ background-image: url('./data/icons/social-038_instagram.png') }
-.flickr{ background-image: url('./data/icons/social-004_flickr.png') }
-.tumblr{ background-image: url('./data/icons/social-015_tumblr.png') }
+.facebook{ background-image: url('./data/icons/svg/facebook.svg') }
+.twitter{ background-image: url('./data/icons/svg/twitter.svg') }
+.instagram{ background-image: url('./data/icons/svg/instagram.svg') }
+.linkedin{ background-image: url('./data/icons/svg/linkedin.svg') }
+.pinterest{ background-image: url('./data/icons/svg/pinterest.svg') }
+.tiktok{ background-image: url('./data/icons/svg/tiktok.svg') }
+.google+{ background-image: url('./data/icons/svg/googleplus.svg') }
+.youtube{ background-image: url('./data/icons/svg/youtube.svg') }
+.snapchat{ background-image: url('./data/icons/svg/snapchat.svg') }
