@@ -87,14 +87,14 @@ function setup () {
     frameRate(30);
     textFont(openSans);
 
-    updateDisplay();
+    // updateDisplay();
 }
 
 
 
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
-    updateDisplay();
+    // updateDisplay();
 }
 
 
@@ -107,16 +107,24 @@ function draw() {
     displayEras();
     
     // links between nodes
-    for (let slug of similarsShow){
-        let slugArray = [];
-        for (let network of networks){
-            let networkNodesArray = network.changelog.filter ( node => node.slug == slug)
-            slugArray = slugArray.concat(networkNodesArray);
+    
 
+    if (similarsShow.length > 0){
+        for (let slug of similarsShow){
+            let slugArray = [];
+            for (let network of networks){
+                let networkNodesArray = network.changelog.filter ( node => node.slug == slug)
+                slugArray = slugArray.concat(networkNodesArray);
+    
+                network.display();
+            }
+    
+            drawLinksBetweenNodes(slugArray);
+        }
+    } else {
+        for (let network of networks){
             network.display();
         }
-
-        drawLinksBetweenNodes(slugArray);
     }
 }
 
@@ -153,7 +161,7 @@ function mouseClicked(){
             }
         })
     }
-    updateDisplay();
+    // updateDisplay();
 }
 
 
