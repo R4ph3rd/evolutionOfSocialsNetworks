@@ -105,6 +105,8 @@ function draw() {
         background(8);
     pop();
 
+    displayEras();
+
     for (let network of networks){
         network.display();
     }
