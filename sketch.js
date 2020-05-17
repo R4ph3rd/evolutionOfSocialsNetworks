@@ -268,8 +268,13 @@ const defineColor = (category) => {
 
         if (filteredColors != undefined){
             let i = int(random(filteredColors.length - 1));
-            definedColor = filteredColors[i].color;
-            filteredColors[i].category = category;
+
+            if (filteredColors[i] != undefined){
+                definedColor = filteredColors[i].color;
+                filteredColors[i].category = category;
+            } else {
+                definedColor = '#FFFFFF';
+            }
         } else {
             definedColor = colors[0].color;
             
@@ -277,7 +282,6 @@ const defineColor = (category) => {
     } else {
         definedColor = definedColor.color
     }
-    console.log(definedColor)
     return color(definedColor) ;
 }
 
@@ -286,7 +290,7 @@ const definePos = (date) => {
     let testdate = date.split('-').reverse().join('-')
     let dateJS = new Date(testdate).valueOf();
 
-    let x = map(dateJS, dateRange.min, dateRange.max, graphRange.min, graphRange.max - 250);
+    let x = map(dateJS, dateRange.min, dateRange.max, graphRange.min, graphRange.max - 290);
     
     return x ;
 }

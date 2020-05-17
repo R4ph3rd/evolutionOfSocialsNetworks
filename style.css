@@ -36,8 +36,8 @@ body {
     width:max-content;
     height:max-content;
     min-width:100px;
-    max-width:200px;
-    max-height:200px;
+    max-width:250px;
+    /* max-height:200px; */
     padding:10px 15px;
     background: linear-gradient(to bottom, rgb(38, 37, 36), rgb(32,32,32));
     box-shadow: 2px 2px 8px rgba(0,0,0, .12);
