@@ -49,7 +49,7 @@
                     "feature": "Creation of hashtags",
                     "date": "23-08-2007",
                     "category": "hashtag",
-                    "slug": "reaction",
+                    "slug": "",
                     "desc": "The hashtag (#), first proposed by user Chris Messina, debuts on Twitter."
                 },
                 {
@@ -62,23 +62,23 @@
                 {
                     "feature": "New homepage",
                     "date": "20-04-2011",
-                    "category": "homepage",
+                    "category": "layout",
                     "slug": "",
                     "desc": "Twitter tests a new homepage and phased out the \"Old Twitter.\" [40] However, a glitch came about after the page was launched, so the previous \"retro\" homepage was still in use until the issues were resolved; the new homepage was reintroduced on April 20."
                 },
                 {
-                    "feature": "photo",
-                    "date": "31-01-2006",
-                    "category": "photo",
-                    "slug": "post",
-                    "desc": "Lorem ipsum maldn  qskdbh "
+                    "feature": "Feed layout",
+                    "date": "08-12-2011",
+                    "category": "layout",
+                    "slug": "",
+                    "desc": "Twitter overhauls its website once more to feature the \"Fly\" design, which the service says is easier for new users to follow and promotes advertising. In addition to the Home tab, the Connect and Discover tabs are introduced along with a redesigned profile and timeline of Tweets. The site's layout is compared to that of Facebook. "
                 },
                 {
                     "feature": "photo-filtre",
                     "date": "22-05-2008",
                     "category": "photo",
                     "slug": "filtre",
-                    "desc": "Lorem ipsum maldn dsdnsdhe dds dqdshdbsqjd hsq sqdsqk dbh kdb qskdbh "
+                    "desc": "Twitter announces a partnership with Russian search engine Yandex. Yandex, a Russian search engine, finds value within the partnership due to Twitter's real time news feeds. Twitter's director of business development explained that it is important to have Twitter content where Twitter users go."
                 }
             ]
         },
@@ -369,3 +369,4 @@
         "live": "28-06-2009"
     }
 }
+
