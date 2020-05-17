@@ -43,27 +43,28 @@
         },
         {
             "network": "Twitter",
-            "creation": "22-03-2005",
+            "creation": "01-03-2006",
             "changelog": [
                 {
-                    "feature": "comments",
-                    "date": "22-05-2005",
-                    "category": "comments",
+                    "feature": "Creation of hashtags",
+                    "date": "23-08-2007",
+                    "category": "hashtag",
                     "slug": "reaction",
-                    "desc": "Lorem ipsum maldn  qskdbh "
+                    "desc": "The hashtag (#), first proposed by user Chris Messina, debuts on Twitter."
                 },
                 {
-                    "feature": "comments-2",
-                    "date": "22-08-2005",
-                    "category": "comments",
-                    "slug": "message",
-                    "desc": "Lorem ipsum maldn dsdnsdhe dds dqdshdbsqjd n dsdnsdhe dds dqdshdbsqjd n dsdnsdhe dds dqdshdbsqjd hsq sqdsqk dbh kdb qskdbh "
+                    "feature": "Promoted tweets",
+                    "date": "13-04-2010",
+                    "category": "advertising",
+                    "slug": "advertising",
+                    "desc": "Twitter announces that it will start allowing for advertising in the form of promoted tweets – \"ordinary tweets that businesses and individuals want to highlight to a wider group of users.\""
                 },
                 {
-                    "feature": "comments-3",
-                    "date": "17-01-2006",
-                    "category": "comments",
-                    "slug": "reaction"
+                    "feature": "New homepage",
+                    "date": "20-04-2011",
+                    "category": "homepage",
+                    "slug": "",
+                    "desc": "Twitter tests a new homepage and phased out the \"Old Twitter.\" [40] However, a glitch came about after the page was launched, so the previous \"retro\" homepage was still in use until the issues were resolved; the new homepage was reintroduced on April 20."
                 },
                 {
                     "feature": "photo",

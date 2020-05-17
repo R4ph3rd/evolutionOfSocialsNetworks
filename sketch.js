@@ -86,12 +86,15 @@ function setup () {
 
     frameRate(30);
     textFont(openSans);
+
+    updateDisplay();
 }
 
 
 
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
+    updateDisplay();
 }
 
 
@@ -99,9 +102,18 @@ function windowResized() {
 function draw() {
     // clear();
     push();
-        // drawingContext.fillStyle = grd;
-        // noStroke();
-        // rect(0, 0, graphRange.max, window.innerHeight);
+        background(8);
+    pop();
+
+    displayEras();
+
+    for (let network of networks){
+        network.display();
+    }
+}
+
+function updateDisplay(){
+    push();
         background(8);
     pop();
 
@@ -123,12 +135,10 @@ function draw() {
     }
 }
 
-
-
 function mouseClicked(){
     for (let network of networks){
         network.changelog.find( node => {
-            if (isHover(node.pos, nodeSize/2 )){
+            if (isHover(node.pos, nodeSize/2 ) && node.slug != undefined && node.slog != ''){
                 if (!similarsShow.includes(node.slug)){
                     similarsShow.push(node.slug);
                 } else {
@@ -137,7 +147,7 @@ function mouseClicked(){
             }
         })
     }
-    // redraw();
+    updateDisplay();
 }
 
 
@@ -305,3 +315,5 @@ const hexToRgb = (hex) => {
       b: parseInt(result[3], 16)
     } : null;
   }
+
+

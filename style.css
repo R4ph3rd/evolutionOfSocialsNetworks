@@ -9,6 +9,12 @@
     font-family: 'Open Sans';
     padding: 0;
     margin:0;
+
+    scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
 }
 
 body {
@@ -18,12 +24,10 @@ body {
     top:0;
     width:100vw;
     height:100vh;
+
+    overflow-y:hidden;
+    scrollbar-width: none;
 } 
-
-
-canvas {
-    background:linear-gradient(to right, rgb(247, 238, 239), rgb(245, 234, 219));
-}
 
 
 .nodeCard{
