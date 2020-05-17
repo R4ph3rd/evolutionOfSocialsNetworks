@@ -419,7 +419,7 @@
                 {
                     "feature": "Replacement of Favorite button",
                     "date": "03-11-2015",
-                    "category": "reactions",
+                    "category": "react",
                     "slug": "",
                     "desc": "Twitter replaces the Favorite button with a Like button and the star symbol (used to symbolize favoriting) with a heart symbol. Twitter reports a 6% increase in usage of the feature after the change, and also appears to be experimenting with offering a more diverse set of emojis, prompting commentators to draw parallels with Facebook's Reactions feature."
                 },
@@ -964,7 +964,7 @@
                 {
                     "feature": "Rating system",
                     "date": "17-08-2005",
-                    "category": "reactions",
+                    "category": "reacts",
                     "slug": "",
                     "desc" : "Add a 5-star rating system"
                 },
@@ -1006,7 +1006,7 @@
                 {
                     "feature": "Comments",
                     "date": "02-05-2006",
-                    "category": "reactions",
+                    "category": "reacts",
                     "slug": "",
                     "desc": "Users can react to videos in comments."
                 },
@@ -1069,7 +1069,7 @@
                 {
                     "feature": "Thumbs rating system",
                     "date": "05-03-2010",
-                    "category": "reactions",
+                    "category": "reacts",
                     "slug": "",
                     "desc": "Rating system is changed to a boolean new one : thumb up or thumb down, green thumb or red thumb."
                 },
