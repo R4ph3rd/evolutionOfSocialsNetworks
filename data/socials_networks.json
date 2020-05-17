@@ -286,40 +286,129 @@
         },
         {
             "network": "Snapchat",
-            "creation": "22-11-2006",
+            "creation": "01-04-2011",
             "changelog": [
                 {
-                    "feature": "comments",
-                    "date": "22-03-2008",
-                    "category": "comments",
-                    "slug": "reaction",
-                    "desc": "Lorem ipsum maldn dsdnsdhe dds dqdshdbsqjd hsq sqdsqk dbh kdb qskdbh "
+                    "feature": "Video sharing",
+                    "date": "14-12-2012",
+                    "category": "video",
+                    "slug": "video",
+                    "desc": "Snapchat releases video sharing and begins prototyping monetization features."
                 },
                 {
-                    "feature": "comments-2",
-                    "date": "22-03-2008",
-                    "category": "comments",
-                    "slug": "message"
+                    "feature": "Snapchat Micro",
+                    "date": "09-09-2013",
+                    "category": "responsive",
+                    "slug": "responsive",
+                    "desc": "Snapchat releases Snapchat Micro, an app for the Galaxy Gear smartwatch."
                 },
                 {
-                    "feature": "comments-3",
-                    "date": "22-03-2008",
-                    "category": "comments",
-                    "slug": "reaction"
+                    "feature": "Snapchat Stories",
+                    "date": "03-10-2013",
+                    "category": "stories",
+                    "slug": "stories",
+                    "desc": "Snapchat updates its app to include the option to create Snapchat Stories, a type of sharing that allows users to build chains of shared content that can be viewed an unlimited number of times over a 24-hour period."
                 },
                 {
-                    "feature": "photo",
-                    "date": "22-03-2010",
-                    "category": "photo",
-                    "slug": "post",
-                    "desc": "Lorem ipsum maldn dsdnsdhe dds dqdshdbsqjd hsq sqdsqk dbh kdb qskdbh "
+                    "feature": "Text chat and video calling",
+                    "date": "01-05-2014",
+                    "category": "messaging",
+                    "slug": "messaging",
+                    "desc": "Snapchat adds ephemeral text chat and video calling."
                 },
                 {
-                    "feature": "photo-filtre",
-                    "date": "22-03-2011",
-                    "category": "photo",
-                    "slug": "filtre"
+                    "feature": "Collaboratives Stories",
+                    "date": "17-06-2014",
+                    "category": "stories",
+                    "slug": "stories",
+                    "desc": "Snapchat launches collaborative timelines based on events."
+                },
+                {
+                    "feature": "Snapchat Live",
+                    "date": "29-08-2014",
+                    "category": "live",
+                    "slug": "live",
+                    "desc": "Snapchat updates its app, adding a \"Live\" section that allows people to follow events live."
+                },
+                {
+                    "feature": "Snapcash",
+                    "date": "17-11-2014",
+                    "category": "money",
+                    "slug": "money",
+                    "desc": "Snapchat announces Snapcash, a tool allowing people to send each other money easily through the app."
+                },
+                {
+                    "feature": "Sponsored Story",
+                    "date": "23-11-2014",
+                    "category": "advertising",
+                    "slug": "advertising",
+                    "desc": "Snapchat includes a sponsored story from Samsung and the AMAs in its Our Story section. Although Snapchat has previously included topical stories related to the World Cup and Super Bowl in the Our Stories section, this is the first placement paid for by a brand."
+                },
+                {
+                    "feature": "Snapchat Discover",
+                    "date": "27-01-2015",
+                    "category": "feed",
+                    "slug": "feed",
+                    "desc": "Snapchat launches Discover, a daily feed comprising content from brands like ESPN, CNN, Vice, and Warner Music, National Geographic, Yahoo News, and others."
+                },
+                {
+                    "feature": "Video Update",
+                    "date": "01-07-2015",
+                    "category": "video",
+                    "slug": "video",
+                    "desc": "Snapchat changes its interface to no longer require people to tap and hold to watch. They just need to tap to the relevant video. This move is interpreted as being an adaptation to the increasing length of video content being shared, that makes holding down more and more cumbersome. A number of other accompanying changes are made, including allowing people to have a profile GIF: they can take five photos of themselves and an animated GIF will be created by juxtaposing the five images."
+                },
+                {
+                    "feature": "Snapchat Travel Mode",
+                    "date": "12-08-2015",
+                    "category": "data",
+                    "slug": "data",
+                    "desc": "Snapchat launches a new mode called Travel Mode in its iOS and Android apps, intended for people who are traveling and do not want to use too much mobile data. In this mode, Snaps, Stories, and Discovery content are not automatically loaded when the user opens the app, but are only loaded when the user taps on the piece of content."
+                },
+                {
+                    "feature": "\"Snapchat Channel\"",
+                    "date": "12-10-2015",
+                    "category": "data",
+                    "slug": "data",
+                    "desc": "Snapchat gets rid of its 15-person team running the \"Snapchat Channel\" (its original content) and shuts the product down."
+                },
+                {
+                    "feature": "Slow-Mo, Fast-forward and rewind video filters",
+                    "date": "28-10-2015",
+                    "category": "video",
+                    "slug": "video",
+                    "desc": "Snapchat adds slow-mo, fast-forward and rewind video filters. It also adds 3D touch capabilities for iPhone 6S and iPhone 6S+ users."
+                },
+                {
+                    "feature": "Chat 2.0",
+                    "date": "29-03-2016",
+                    "category": "messaging",
+                    "slug": "messaging",
+                    "desc": "Snapchat announces Chat 2.0, a collection of product updates. The updates include Snapchat Stories auto-advance (moving to the next story after one story has played), over 200 stickers that can be used in chat messages, video notes, audio notes, video and audio calls, multiple photo-sending, and on-the-fly toggling between video and audio calls.[107][108] Commentators find a connection between the announcements, arguing that the acquisition of Bitstrips might lead to the ability to create and send personalized stickers in the future."
+                },
+                {
+                    "feature": "Editing",
+                    "date": "23-05-2016",
+                    "category": "edit",
+                    "slug": "edit",
+                    "desc": "Snapchat adds support for decorating snaps with 200+ stickers."
+                },
+                {
+                    "feature": "Snapchat Memories",
+                    "date": "23-07-2016",
+                    "category": "stories",
+                    "slug": "stories",
+                    "desc": "Snapchat announces Memories, a feature that helps people find older content they have posted. By default, any snaps saved to the Camera Roll also get included in Memories, though the setting can be changed. It is also possible to search through old snaps in Memories. Memories itself cannot be accessed by others, but snaps collected from memories can be used as part of Snapchat Stories, that others can see temporarily. This also makes it easy for people to recover their snaps if their device is lost or damaged. Particularly sensitive content can be saved under My Eyes Only with passcode protection, but the content cannot be retrieved if the passcode is lost."
+                },
+                {
+                    "feature": "Snap Map",
+                    "date": "21-06-2017",
+                    "category": "stories",
+                    "slug": "stories",
+                    "desc": "Snapchat launches location sharing with a new feature called Snap Map. Snap Map lets you share your current location, which appears to friends on a map and updates when you open Snapchat."
                 }
+
+
             ]
         },
         {
