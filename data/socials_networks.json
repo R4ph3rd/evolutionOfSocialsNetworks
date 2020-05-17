@@ -321,7 +321,7 @@
                 {
                     "feature": "Creation of hashtags",
                     "date": "23-08-2007",
-                    "category": "hashtag",
+                    "category": "tag",
                     "slug": "",
                     "desc": "The hashtag (#), first proposed by user Chris Messina, debuts on Twitter."
                 },
@@ -426,7 +426,7 @@
                 {
                     "feature": "Replacement of Favorite button",
                     "date": "03-11-2015",
-                    "category": "reactions",
+                    "category": "react",
                     "slug": "",
                     "desc": "Twitter replaces the Favorite button with a Like button and the star symbol (used to symbolize favoriting) with a heart symbol. Twitter reports a 6% increase in usage of the feature after the change, and also appears to be experimenting with offering a more diverse set of emojis, prompting commentators to draw parallels with Facebook's Reactions feature."
                 },
@@ -489,7 +489,7 @@
                     "feature": "Hashtags",
                     "date": "01-01-2011",
                     "category": "tag",
-                    "slug": "reaction",
+                    "slug": "reacts",
                     "desc": "Instagram adds hashtags to help users discover both photographs and each other. Instagram encourages users to make tags both specific and relevant, rather than tagging generic words like \"photo\", to make photographs stand out and to attract like-minded Instagram users."
                 },
                 {
@@ -838,8 +838,8 @@
                 {
                     "feature": "Guided Search",
                     "date": "24-10-2014",
-                    "category": "searchengine",
-                    "slug": "searchengine",
+                    "category": "search_engine",
+                    "slug": "search_engine",
                     "desc": "Pinterest announces and releases Guided Search, a new visual way to explore Pinterest's more than 30 billion pins—links or images chosen by users and assigned by them to topical collections."
                 },
                 {
@@ -880,8 +880,8 @@
                 {
                     "feature": "New search filters",
                     "date": "23-01-2015",
-                    "category": "searchengine",
-                    "slug": "searchengine",
+                    "category": "search_engine",
+                    "slug": "search_engine",
                     "desc": "Pinterest debuts new search filters that give users more control over the pins they see. Commentators believe the aim of these is to go after the male demographic, which tends to be put off by the female-heavy pins on the site."
                 },
                 {
@@ -901,8 +901,8 @@
                 {
                     "feature": "Pin It Button",
                     "date": "02-04-2015",
-                    "category": "cta",
-                    "slug": "cta",
+                    "category": "layout",
+                    "slug": "layout",
                     "desc": "Pinterest debuts a new \"Pin It\" button that requires fewer steps to bookmark a Pin, and that, according to tests, increases the number of pinning actions by 3%. The new button is developed by the team from Icebergs, a company acquired by Pinterest the previous year."
                 },
                 {
@@ -922,8 +922,8 @@
                 {
                     "feature": "Visual search",
                     "date": "08-11-2015",
-                    "category": "searchengine",
-                    "slug": "searchengine",
+                    "category": "search_engine",
+                    "slug": "search_engine",
                     "desc": "Pinterest begins rolling out a visual search tool that allows users to select part of an image and find similar Pins."
                 },
                 {
@@ -936,15 +936,15 @@
                 {
                     "feature": "Tried it checkmark",
                     "date": "10-11-2016",
-                    "category": "cta",
-                    "slug": "cta",
+                    "category": "layout",
+                    "slug": "layout",
                     "desc": "Pinterest begins showing a \"Tried it\" checkmark on Pins, which allows users to share the products, recipes, and ideas they have tried."
                 },
                 {
                     "feature": "Lens, Instant Ideas and Shop the Look",
                     "date": "07-02-2017",
-                    "category": "searchengine",
-                    "slug": "searchengine",
+                    "category": "search_engine",
+                    "slug": "search_engine",
                     "desc": "Pinterest simultaneously launches three products related to visual search: (1) Lens, which allows users to take photos of objects to find Pins related those objects; (2) Instant Ideas, a circle button that appears on each Pin that, when tapped, displays related Pins; and (3) Shop the Look, a circle button that appears on each individual item within a photo that, when tapped, displays Pins related to that item."
                 }
 
@@ -971,7 +971,7 @@
                 {
                     "feature": "Rating system",
                     "date": "17-08-2005",
-                    "category": "reactions",
+                    "category": "reacts",
                     "slug": "",
                     "desc" : "Add a 5-star rating system"
                 },
@@ -1013,7 +1013,7 @@
                 {
                     "feature": "Comments",
                     "date": "02-05-2006",
-                    "category": "reactions",
+                    "category": "reacts",
                     "slug": "",
                     "desc": "Users can react to videos in comments."
                 },
@@ -1076,7 +1076,7 @@
                 {
                     "feature": "Thumbs rating system",
                     "date": "05-03-2010",
-                    "category": "reactions",
+                    "category": "reacts",
                     "slug": "",
                     "desc": "Rating system is changed to a boolean new one : thumb up or thumb down, green thumb or red thumb."
                 },
