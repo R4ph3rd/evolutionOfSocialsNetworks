@@ -75,12 +75,12 @@ class Node {
         // let nodeCards = document.getElementsByClassName('nodeCard');
 
         if (pos.bottom > height){
-            console.log(this.id, 'ça déborde par le bas')
+            // console.log(this.id, 'ça déborde par le bas')
             divInDOM.style.top = (this.pos.y - pos.height) + 'px';
         }
 
         if (pos.right > width){
-            console.log(this.id, 'ça déborde par la droite')
+            // console.log(this.id, 'ça déborde par la droite')
             divInDOM.style.left = (this.pos.x - pos.width) + 'px';
         }
         
