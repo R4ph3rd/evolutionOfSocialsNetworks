@@ -83,37 +83,203 @@
         },
         {
             "network": "Instagram",
-            "creation": "18-02-2008",
+            "creation": "21-10-2009",
             "changelog": [
                 {
-                    "feature": "comments",
-                    "date": "22-03-2008",
-                    "category": "comments",
-                    "slug": "reaction"
-                },
-                {
-                    "feature": "comments-2",
-                    "date": "12-04-2008",
-                    "category": "comments",
-                    "slug": "message"
-                },
-                {
-                    "feature": "comments-3",
-                    "date": "22-05-2008",
-                    "category": "comments",
-                    "slug": "reaction"
-                },
-                {
-                    "feature": "photo",
-                    "date": "22-03-2010",
+                    "feature": "Image post",
+                    "date": "22-06-2010",
                     "category": "photo",
-                    "slug": "post"
+                    "slug": "post",
+                    "desc": "Instagram launches (from Systrom and Krieger) with the hope of facilitating communication through images. It nabs 100K users in one week."
                 },
                 {
-                    "feature": "photo-filtre",
-                    "date": "22-03-2011",
+                    "feature": "Hashtags",
+                    "date": "01-01-2011",
+                    "category": "tag",
+                    "slug": "reaction",
+                    "desc": "Instagram adds hashtags to help users discover both photographs and each other. Instagram encourages users to make tags both specific and relevant, rather than tagging generic words like \"photo\", to make photographs stand out and to attract like-minded Instagram users."
+                },
+                {
+                    "feature": "Filters on camera",
+                    "date": "01-09-2012",
                     "category": "photo",
-                    "slug": "filtre"
+                    "slug": "filter",
+                    "desc": "Version 2.0 of Instagram goes live in the App Store (iOS) and included new and live filters"
+                },
+                {
+                    "feature": "Tilt-shift on camera",
+                    "date": "01-09-2012",
+                    "category": "photo",
+                    "slug": "filter",
+                    "desc": "Version 2.0 of Instagram goes live in the App Store (iOS) and instant tilt–shift"
+                },
+                {
+                    "feature": "High resolution on camera",
+                    "date": "01-09-2012",
+                    "category": "photo",
+                    "slug": "filter",
+                    "desc": "Version 2.0 of Instagram goes live in the App Store (iOS) and high resolution photographs"
+                },
+                {
+                    "feature": "Optional borders on camera",
+                    "date": "01-09-2012",
+                    "category": "photo",
+                    "slug": "filter",
+                    "desc": "Version 2.0 of Instagram goes live in the App Store (iOS) and optional borders"
+                },
+                {
+                    "feature": "One-click rotation on pictures editing",
+                    "date": "01-09-2012",
+                    "category": "photo",
+                    "slug": "filter",
+                    "desc": "Version 2.0 of Instagram goes live in the App Store (iOS) and one-click rotation"
+                },
+                {
+                    "feature": "Photo user tagging",
+                    "date": "01-05-2013",
+                    "category": "photo",
+                    "slug": "tag",
+                    "desc": "Instagram introduces photo tagging and \"Photos of You,\" a new tab on a user’s profile listing every picture he or she is tagged in."
+                },
+                {
+                    "feature": "Video sharing.",
+                    "date": "13-06-2013",
+                    "category": "video",
+                    "slug": "tag",
+                    "desc": "Instagram launches video sharing."
+                },
+                {
+                    "feature": "Embed links",
+                    "date": "01-07-2013",
+                    "category": "share",
+                    "slug": "link",
+                    "desc": "Instagram makes it easier to share posts by adding links to embed photos and videos."
+                },
+                {
+                    "feature": "Sponsored post",
+                    "date": "01-11-2013",
+                    "category": "advertising",
+                    "slug": "advertising",
+                    "desc": "Instagram introduces sponsored post advertising targeting US users."
+                },
+                {
+                    "feature": "Send photos",
+                    "date": "12-12-2013",
+                    "category": "messaging",
+                    "slug": "messaging",
+                    "desc": "Instagram adds Direct, a feature that allows users to send photos to specific people directly from the app. Instagram's primary intention with the Direct feature is to compete against messaging services, including Snapchat."
+                },
+                {
+                    "feature": "advanced editing tools",
+                    "date": "01-07-2014",
+                    "category": "photo",
+                    "slug": "edit",
+                    "desc": "Instagram launches new series of editing tools – allowing users to minutely customize image characteristics like brightness, contrast, highlights, and shadows."
+                },
+                {
+                    "feature": "advanced business tools",
+                    "date": "21-09-2014",
+                    "category": "advertising",
+                    "slug": "advertising",
+                    "desc": "Instagram makes itself more advertising-friendly by introducing a suite of business tools aimed at brands which offer insights and analytics related to their use of the image-sharing network."
+                },
+                {
+                    "feature": "Call to action on advertising",
+                    "date": "01-07-2015",
+                    "category": "advertising",
+                    "slug": "advertising",
+                    "desc": "Instagram bolsters up its advertising capabilities, testing ad formats that prompt users to do things such as installing an app, signing up for an email newsletter, or link to a retailer’s site to purchase a product."
+                },
+                {
+                    "feature": "30-second videos for advertisers",
+                    "date": "09-09-2015",
+                    "category": "advertising",
+                    "slug": "advertising",
+                    "desc": "Instagram allows 30-second ads for all advertisers – twice the 15-second limit given for users."
+                },
+                {
+                    "feature": "Boomerang video",
+                    "date": "01-10-2015",
+                    "category": "filter",
+                    "slug": "filter",
+                    "desc": "Instagram launches Boomerang, an app where the user shoots a one-second burst of five photos that is turned into a silent video that plays forwards and then reverses in a loop."
+                },
+                {
+                    "feature": "Disabled feed reading API",
+                    "date": "17-11-2015",
+                    "category": "dev",
+                    "slug": "dev",
+                    "desc": "Instagram kills off support from feed-reading applications."
+                },
+                {
+                    "feature": "Switch between multiple accounts",
+                    "date": "01-02-2016",
+                    "category": "dev",
+                    "slug": "dev",
+                    "desc": "Instagram starts enabling users to easily switch between multiple accounts."
+                },
+                {
+                    "feature": "Algorithmically-driven Feed",
+                    "date": "15-03-2016",
+                    "category": "feed",
+                    "slug": "feed",
+                    "desc": "Instagram switches its feed from chronological to algorithmically-driven best posts first."
+                },
+                {
+                    "feature": "Analytics on profile",
+                    "date": "01-05-2016",
+                    "category": "data",
+                    "slug": "data",
+                    "desc": "Instagram announces that it will launch new business tools – including analytics that allow users to see audience demographics, post impressions, and reach."
+                },
+                {
+                    "feature": "Instant translation",
+                    "date": "01-06-2016",
+                    "category": "data",
+                    "slug": "data",
+                    "desc": "Instagram announces instant translation feature."
+                },
+                {
+                    "feature": "Comment filter",
+                    "date": "01-07-2016",
+                    "category": "comment",
+                    "slug": "comment",
+                    "desc": "Instagram announces that it will start allowing users to filter out comment streams – giving users the choice about which comments are acceptable or not for themselves. It also starts allowing users the opportunity to entirely turn off comments."
+                },
+                {
+                    "feature": "Instagram Stories",
+                    "date": "02-08-2016",
+                    "category": "stories",
+                    "slug": "stories",
+                    "desc": "Instagram launches Instagram Stories. The product works like Snapchat Stories: users can post 24-hour ephemeral photo and video slideshows that disappear. Instagram CEO Kevin Systrom openly admits that the feature is copied from Snapchat, based on the success of Snapchat stories. The feature is viewed as part of Instagram's goal of attracting users away from Snapchat."
+                },
+                {
+                    "feature": "Image Zoom",
+                    "date": "02-08-2016",
+                    "category": "image",
+                    "slug": "image",
+                    "desc": "Instagram brings in Image Zoom, allowing users to zoom into images."
+                },
+                {
+                    "feature": "Live Video",
+                    "date": "21-11-2016",
+                    "category": "live",
+                    "slug": "live",
+                    "desc": "Instagram launches live video, which allows users to broadcast live on Instagram, for up to one hour. Live videos on Instagram are not preserved, and are removed from the service once a user is done broadcasting. Instagram also launches disappearing photos and videos for the Instagram Direct feature on the same day, and images and videos sent using this method disappear after a certain amount of time."
+                },
+                {
+                    "feature": "Slides posts",
+                    "date": "22-02-2017",
+                    "category": "posts",
+                    "slug": "posts",
+                    "desc": "Instagram launches a feature allowing users to post multiple photos in one post, in a slideshow-like fashion."
+                },
+                {
+                    "feature": "IGTV",
+                    "date": "20-06-2018",
+                    "category": "video",
+                    "slug": "video",
+                    "desc": "Instagram announces the launch of IGTV, a video platform intended to compete against YouTube. Users will now be able to upload videos of up to 10 minutes, while creators and accounts with larger audiences can upload videos of up to one hour. IGTV will have a dedicated button in the Instagram app, in addition to a standalone app released that same day."
                 }
             ]
         },
