@@ -487,8 +487,8 @@
                 {
                     "feature": "\"Snapchat Channel\"",
                     "date": "12-10-2015",
-                    "category": "data",
-                    "slug": "data",
+                    "category": "content",
+                    "slug": "content",
                     "desc": "Snapchat gets rid of its 15-person team running the \"Snapchat Channel\" (its original content) and shuts the product down."
                 },
                 {
@@ -532,41 +532,149 @@
         },
         {
             "network": "Pinterest",
-            "creation": "18-06-2003",
+            "creation": "01-12-2009",
             "changelog": [
                 {
-                    "feature": "comments",
-                    "date": "22-03-2008",
-                    "category": "comments",
-                    "slug": "reaction",
-                    "desc": "Lorem ipsum maldn dsdnsdhe dds dqdshdbsqjd hsq sqdsqk dbh kdb qskdbh "
+                    "feature": "Embed links",
+                    "date": "20-02-2012",
+                    "category": "share",
+                    "slug": "link",
+                    "desc": "Pinterest releases a \"nopin\" HTML meta tag that allowed websites to opt out of allowing their content to be pinned.[9] Soon (February 24), Flickr implements the code to allow users to opt out of allowing their photos to be pinned."
                 },
                 {
-                    "feature": "comments-2",
-                    "date": "22-03-2008",
-                    "category": "comments",
-                    "slug": "message",
-                    "desc": "Lorem ipsum maldn dsdnsdhe dds dqdshdbsqjd hsq sqdsqk dbh kdb qskdbh "
+                    "feature": "Pinterest adds automatic attribution",
+                    "date": "01-05-2012",
+                    "category": "share",
+                    "slug": "link",
+                    "desc": "Pinterest adds automatic attribution of authors on images originating from Flickr, Behance, YouTube, and Vimeo. Automatic attribution is also added for Pins from sites mirroring content on Flickr. At the same time Flickr added a Pin shortcut to its share option menu to users who have not opted out of sharing their images."
                 },
                 {
-                    "feature": "comments-3",
-                    "date": "22-03-2008",
-                    "category": "comments",
-                    "slug": "reaction"
+                    "feature": "Pinterest launches business accounts",
+                    "date": "14-10-2012",
+                    "category": "advertising",
+                    "slug": "advertising",
+                    "desc": "Pinterest launches business accounts allowing businesses to either convert their existing personal accounts into business accounts, or start from scratch."
                 },
                 {
-                    "feature": "photo",
-                    "date": "22-03-2010",
-                    "category": "photo",
-                    "slug": "post"
+                    "feature": "Allow users to report others",
+                    "date": "17-10-2012",
+                    "category": "moderation",
+                    "slug": "moderation",
+                    "desc": "Pinterest announces a new feature that would allow users to report others for negative and offensive activity or block other users if they do not want to view their content. Pinterest said they want to keep their community \"positive and respectful.\""
                 },
                 {
-                    "feature": "photo-filtre",
-                    "date": "22-03-2011",
-                    "category": "photo",
-                    "slug": "filtre",
-                    "desc": "Lorem ipsum maldn dsdnsdhe dds dqdshdbsqjd hsq sqdsqk dbh kdb qskdbh "
+                    "feature": "Guided Search",
+                    "date": "24-10-2014",
+                    "category": "searchengine",
+                    "slug": "searchengine",
+                    "desc": "Pinterest announces and releases Guided Search, a new visual way to explore Pinterest's more than 30 billion pins—links or images chosen by users and assigned by them to topical collections."
+                },
+                {
+                    "feature": "Promoted Pins",
+                    "date": "12-05-2014",
+                    "category": "advertising",
+                    "slug": "advertising",
+                    "desc": "Pinterest launches \"Promoted Pins\" that would allow companies to sponsor results in its search results and category feeds."
+                },
+                {
+                    "feature": "Direct Messaging",
+                    "date": "06-08-2014",
+                    "category": "messaging",
+                    "slug": "messaging",
+                    "desc": "Pinterest adds a direct messaging feature that allows users to discuss pins privately."
+                },
+                {
+                    "feature": "Analytics dashboard",
+                    "date": "26-08-2014",
+                    "category": "analytics",
+                    "slug": "analytics",
+                    "desc": "Pinterest launches a new analytics dashboard for business users."
+                },
+                {
+                    "feature": "Pin Picks",
+                    "date": "06-10-2014",
+                    "category": "content",
+                    "slug": "content",
+                    "desc": "Pinterest releases \"Pin Picks\" that are weekly curations of their own content."
+                },
+                {
+                    "feature": "Promoted pins to all advertisers",
+                    "date": "28-12-2014",
+                    "category": "advertising",
+                    "slug": "advertising",
+                    "desc": "Pinterest opens up promoted pins to all advertisers, following what they perceive as success of their beta program."
+                },
+                {
+                    "feature": "New search filters",
+                    "date": "23-01-2015",
+                    "category": "searchengine",
+                    "slug": "searchengine",
+                    "desc": "Pinterest debuts new search filters that give users more control over the pins they see. Commentators believe the aim of these is to go after the male demographic, which tends to be put off by the female-heavy pins on the site."
+                },
+                {
+                    "feature": "Promoted Pins in users' home feeds",
+                    "date": "27-01-2015",
+                    "category": "advertising",
+                    "slug": "advertising",
+                    "desc": "Pinterest announces that it will begin showing Promoted Pins in users' home feeds, thereby expanding the reach of Promoted Pins considerably."
+                },
+                {
+                    "feature": "Direct Download",
+                    "date": "11-02-2015",
+                    "category": "data",
+                    "slug": "data",
+                    "desc": "Pinterest announces a partnership with Apple Inc. whereby people using Pinterest's iOS app on iPhones or iPads can directly download iOS apps from within Pinterest itself, using special types of pins called app Pins."
+                },
+                {
+                    "feature": "Pin It Button",
+                    "date": "02-04-2015",
+                    "category": "cta",
+                    "slug": "cta",
+                    "desc": "Pinterest debuts a new \"Pin It\" button that requires fewer steps to bookmark a Pin, and that, according to tests, increases the number of pinning actions by 3%. The new button is developed by the team from Icebergs, a company acquired by Pinterest the previous year."
+                },
+                {
+                    "feature": "Cinematic Pins",
+                    "date": "18-05-2015",
+                    "category": "video",
+                    "slug": "video",
+                    "desc": "Pinterest introduces a new video ad format called Cinematic Pins, where the video plays only either while the user is scrolling or if the user taps on the pin. This is in contrast with existing autoplay videos used by Facebook and other companies for their feeds."
+                },
+                {
+                    "feature": "Buyable Pins",
+                    "date": "18-05-2015",
+                    "category": "advertising",
+                    "slug": "advertising",
+                    "desc": "Pinterest announces the launch of Buyable Pins, a special type of pin that can be used to make purchases within Pinterest itself. When users select a Buyable Pin, they have the option of choosing the item they wish to buy (for instance, choosing between different dress sizes and colors), and they can then make the purchase within the app using a variety of payment methods, including Apple Pay. Launch partners include Shopify and Demandware. The buyable pins are free to use, and Pinterest does not take a cut of the purchases made. However, Pinterest intends to allow sellers to promote buyable pins just as they can promote other pins."
+                },
+                {
+                    "feature": "Visual search",
+                    "date": "08-11-2015",
+                    "category": "searchengine",
+                    "slug": "searchengine",
+                    "desc": "Pinterest begins rolling out a visual search tool that allows users to select part of an image and find similar Pins."
+                },
+                {
+                    "feature": "Video player",
+                    "date": "01-08-2016",
+                    "category": "video",
+                    "slug": "video",
+                    "desc": "Pinterest launches a video player that lets users and brands upload and store clips of any length straight to the site. It also begins implementing visual search tools on videos."
+                },
+                {
+                    "feature": "Tried it checkmark",
+                    "date": "10-11-2016",
+                    "category": "cta",
+                    "slug": "cta",
+                    "desc": "Pinterest begins showing a \"Tried it\" checkmark on Pins, which allows users to share the products, recipes, and ideas they have tried."
+                },
+                {
+                    "feature": "Lens, Instant Ideas and Shop the Look",
+                    "date": "07-02-2017",
+                    "category": "searchengine",
+                    "slug": "searchengine",
+                    "desc": "Pinterest simultaneously launches three products related to visual search: (1) Lens, which allows users to take photos of objects to find Pins related those objects; (2) Instant Ideas, a circle button that appears on each Pin that, when tapped, displays related Pins; and (3) Shop the Look, a circle button that appears on each individual item within a photo that, when tapped, displays Pins related to that item."
                 }
+
             ]
         }
     ],
