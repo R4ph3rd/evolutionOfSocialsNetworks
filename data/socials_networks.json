@@ -74,11 +74,130 @@
                     "desc": "Twitter overhauls its website once more to feature the \"Fly\" design, which the service says is easier for new users to follow and promotes advertising. In addition to the Home tab, the Connect and Discover tabs are introduced along with a redesigned profile and timeline of Tweets. The site's layout is compared to that of Facebook. "
                 },
                 {
-                    "feature": "photo-filtre",
-                    "date": "22-05-2008",
-                    "category": "photo",
-                    "slug": "filtre",
+                    "feature": "Embeded Twitter content in search engines",
+                    "date": "21-02-2012",
+                    "category": "search_engine",
+                    "slug": "",
                     "desc": "Twitter announces a partnership with Russian search engine Yandex. Yandex, a Russian search engine, finds value within the partnership due to Twitter's real time news feeds. Twitter's director of business development explained that it is important to have Twitter content where Twitter users go."
+                },
+                {
+                    "feature": "Twitter Music",
+                    "date": "18-04-2013",
+                    "category": "app",
+                    "slug": "",
+                    "desc": "Twitter launches a music app called Twitter Music for the iPhone."
+                },
+                {
+                    "feature": "New anti-harassment tools & responses",
+                    "date": "02-12-2014",
+                    "category": "moderation",
+                    "slug": "harassment",
+                    "desc": "Twitter announces a new suite of anti-harassment tools and promises faster response times for abuse complaints."
+                },
+                {
+                    "feature": "Instant Timeline",
+                    "date": "12-11-2014",
+                    "category": "feed",
+                    "slug": "",
+                    "desc": "Twitter announces  \"Instant Timeline\"—a way to show users who have just created accounts interesting content even before they have followed anybody. Around the same time, Twitter announces that it will make the timeline more customized, highlighting to a user the most important tweets while they were away, rather than simply showing a reverse chronological feed. Other features announced include better video capability and the ability to share public tweets privately with one's followers to discuss them."
+                },
+                {
+                    "feature": "While you were away",
+                    "date": "21-01-2015",
+                    "category": "content",
+                    "slug": "",
+                    "desc": "Twitter officially launches its \"While You Were Away\" feature."
+                },
+                {
+                    "feature": "Quality filter on iOS users",
+                    "date": "23-03-2015",
+                    "category": "moderation",
+                    "slug": "",
+                    "desc": "Twitter starts rolling out a \"Quality Filter\" to verified iOS users so that people can more easily keep bullying and unpleasant tweets out of their stream. A number of news articles commented that it worked quite well."
+                },
+                {
+                    "feature": "Curator",
+                    "date": "31-03-2015",
+                    "category": "search_engine",
+                    "slug": "",
+                    "desc": "Twitter publicly launches Curator, a real-time search and filtering feature for media outlets, that some commentators call a Storify competitor."
+                },
+                {
+                    "feature": "Marketing Platform Partners",
+                    "date": "05-03-2015",
+                    "category": "advertising",
+                    "slug": "",
+                    "desc": "Twitter announces that it will tap data from its Marketing Platform Partners and allow publishers to target ads to specific audiences based on that data."
+                },
+                {
+                    "feature": "Displaying tweets in Google Search",
+                    "date": "19-05-2015",
+                    "category": "search_engine",
+                    "slug": "",
+                    "desc": "Google adds tweets to its mobile search results."
+                },
+                {
+                    "feature": "Buy buttons",
+                    "date": "30-09-2015",
+                    "category": "in-app_shopping",
+                    "slug": "",
+                    "desc": "Twitter expands Buy buttons through partnerships with Bigcommerce, Demandware, and Shopify."
+                },
+                {
+                    "feature": "Twitter Moments",
+                    "date": "06-10-2015",
+                    "category": "trends",
+                    "slug": "",
+                    "desc": "Twitter debuts Twitter Moments, a way for people to get a quick overview of important tweets or chains of tweets that occurred recently."
+                },
+                {
+                    "feature": "Replacement of Favorite button",
+                    "date": "03-11-2015",
+                    "category": "reactions",
+                    "slug": "",
+                    "desc": "Twitter replaces the Favorite button with a Like button and the star symbol (used to symbolize favoriting) with a heart symbol. Twitter reports a 6% increase in usage of the feature after the change, and also appears to be experimenting with offering a more diverse set of emojis, prompting commentators to draw parallels with Facebook's Reactions feature."
+                },
+                {
+                    "feature": "Transparency page",
+                    "date": "04-11-2015",
+                    "category": "transparency",
+                    "slug": "",
+                    "desc": "Twitter launches a political transparency page, so that people can better engage with policy issues on Twitter."
+                },
+                {
+                    "feature": "Algorithmic feed based on recommended tweets",
+                    "date": "20-03-2016",
+                    "category": "feed",
+                    "slug": "",
+                    "desc": "Twitter rolls out a change to its feed, making recommended tweets the default option, rather than the reverse chronological format that it had used since launch. The rollout officially begins on February 10. The rollout is completed on March 17, 2016. Users are allowed to opt out, but Twitter reports in April 2016 that the percentage of users who opted out is in the \"low single digits\"."
+                }, 
+                {
+                    "feature": "External content in tweets",
+                    "date": "24-05-2016",
+                    "category": "content",
+                    "slug": "",
+                    "desc": "Twitter announces that photos, videos, and the person's handle will not be counted in the 140 characters, and that a tweet beginning with a handle will be seen by followers."
+                },
+                {
+                    "feature": "Located tweets",
+                    "date": "24-06-2016",
+                    "category": "meta",
+                    "slug": "",
+                    "desc": "Twitter launches tags to location feeds with Foursquare. People can see which tweets are from a specific place."
+                },
+                {
+                    "feature": "Explore tab",
+                    "date": "26-01-2017",
+                    "category": "layout",
+                    "slug": "",
+                    "desc": "Twitter launches the \"Explore\" tab, which replaces the \"Moments\" tab. The Explore tab bundles together Moments, trends, live video streams, and search."
+                },
+                {
+                    "feature": "Caracters limit in tweets increased",
+                    "date": "06-11-2018",
+                    "category": "content",
+                    "slug": "",
+                    "desc": "Twitter expands from 140 to 280-word count."
                 }
             ]
         },
