@@ -86,12 +86,15 @@ function setup () {
 
     frameRate(30);
     textFont(openSans);
+
+    updateDisplay();
 }
 
 
 
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
+    updateDisplay();
 }
 
 
@@ -99,9 +102,16 @@ function windowResized() {
 function draw() {
     // clear();
     push();
-        // drawingContext.fillStyle = grd;
-        // noStroke();
-        // rect(0, 0, graphRange.max, window.innerHeight);
+        background(8);
+    pop();
+
+    for (let network of networks){
+        network.display();
+    }
+}
+
+function updateDisplay(){
+    push();
         background(8);
     pop();
 
@@ -123,8 +133,6 @@ function draw() {
     }
 }
 
-
-
 function mouseClicked(){
     for (let network of networks){
         network.changelog.find( node => {
@@ -137,7 +145,7 @@ function mouseClicked(){
             }
         })
     }
-    // redraw();
+    updateDisplay();
 }
 
 
