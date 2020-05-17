@@ -315,3 +315,15 @@ const hexToRgb = (hex) => {
       b: parseInt(result[3], 16)
     } : null;
   }
+
+
+
+
+  // UPDATE SLIDER POS;
+
+let slider = document.querySelector('div.slider');
+
+window.addEventListener('scroll', (e) => {
+    let posX = map(window.scrollX, 0, graphRange.max, 0, 100);
+    slider.style.left = posX + '%';
+})
