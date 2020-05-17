@@ -138,7 +138,7 @@ function updateDisplay(){
 function mouseClicked(){
     for (let network of networks){
         network.changelog.find( node => {
-            if (isHover(node.pos, nodeSize/2 )){
+            if (isHover(node.pos, nodeSize/2 ) && node.slug != undefined && node.slog != ''){
                 if (!similarsShow.includes(node.slug)){
                     similarsShow.push(node.slug);
                 } else {
