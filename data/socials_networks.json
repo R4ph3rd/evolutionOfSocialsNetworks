@@ -15,7 +15,7 @@
                     "feature": "Facebook high school version",
                     "date": "10-09-2005",
                     "category": "layout",
-                    "slug": "facebook high school version",
+                    "slug": "updateWebsite",
                     "desc": "Facebook launches a high school version of the website. "
                 },
                 {
@@ -29,42 +29,42 @@
                     "feature": "Tag friends in photos ",
                     "date": "10-12-2005",
                     "category": "image & video",
-                    "slug": "tag friends in photos ",
+                    "slug": "tagFriends",
                     "desc": "Facebook introduces the ability to tag friends in photos. "
                 },
                 {
                     "feature": "Facebook notes",
                     "date": "22-08-2006",
                     "category": "feed & content",
-                    "slug": "facebook notes",
+                    "slug": "notes",
                     "desc": "Facebook launches a blogging feature known as 'Facebook Notes'. "
                 },
                 {
                     "feature": "News Feed",
                     "date": "06-09-2006",
                     "category": "feed & content",
-                    "slug": "news Feed",
+                    "slug": "",
                     "desc": "Facebook launches News Feed. The original news feed is an algorithmically generated and constantly refreshing summary of updates about the activities of one's friends. The concept was relatively new at the time, with Twitter having launched only a few months in advance.  "
                 },
                 {
                     "feature": "Facebook on mobile",
                     "date": "06-11-2006",
                     "category": "app",
-                    "slug": "facebook on mobile",
+                    "slug": "mobile",
                     "desc": "Facebook launches m.facebook.com and officially announces mobile support. "
                 },
                 {
                     "feature": "Facebook Platform",
                     "date": "24-05-2007",
                     "category": "for developers",
-                    "slug": "facebook Platform",
+                    "slug": "api",
                     "desc": "Facebook announces Facebook Platform for developers to build applications on top of Facebook's social graph."
                 },
                 {
                     "feature": "Facebook Credits",
                     "date": "14-11-2008",
                     "category": "payments",
-                    "slug": "facebook Credits",
+                    "slug": "pay",
                     "desc": "Facebook launches Facebook Credits in order to help users purchase Facebook gifts."
                 },
                 {
@@ -85,47 +85,47 @@
                     "feature": "Community Pages",
                     "date": "19-04-2010",
                     "category": "sharing",
-                    "slug": "community Pages",
+                    "slug": "pages",
                     "desc": "Facebook introduces Community Pages, which are Pages that are populated with articles from Wikipedia."
                 },
                 {
                     "feature": "Like on individual comments",
                     "date": "20-06-2010",
                     "category": "reactions",
-                    "slug": "like on individual comments",
+                    "slug": "like",
                     "desc": "Facebook introduces the option to Like individual comments. "
                 },
                 {
                     "feature": "Profile page",
                     "date": "03-12-2010",
                     "category": "feed & content",
-                    "slug": "profile page",
+                    "slug": "profile",
                     "desc": "Facebook launches a redesign that emphasizes the most important parts of someone's life, including one's biographic information, photos, education, work experience, and important relationships. It replaces the tabs at the top of each profile page with links on the left side of the page"
                 },
                 {
                     "feature": "Video chat in Facebook's website interface",
                     "date": "06-07-2011",
                     "category": "image & video",
-                    "slug": "video chat in Facebook's website interface",
+                    "slug": "video_chat",
                     "desc": "Facebook partners with Skype to add video chat and updates its website interface."
                 },
                 {
                     "feature": "Facebook messenger on IOS, Android and Blackberry",
                     "date": "09-08-2011",
                     "category": "app",
-                    "slug": "facebook messenger on IOS, Android and Blackberry",
+                    "slug": "mobile",
                     "desc": "Facebook Messenger is launched for Android and IOS. October 19, 2011 update makes the app available to Blackberry os."
                 },
                 {
                     "feature": "Character limit update on status from 500 to 63,206",
                     "date": "09-10-2011",
                     "category": "feed & content",
-                    "slug": "Character limit update on status",
+                    "slug": "limit",
                     "desc": "Facebook increases the character limit for status update posts from 500 to 5,000 in September and to 63,206 on November 30."
                 },
                 {
                     "feature": "Subscribe",
-                    "date": "14-09-2011",
+                    "date": "02-09-2011",
                     "category": "sharing",
                     "slug": "subscribe",
                     "desc": "Facebook allows people to subscribe to non-friends and to set the extent to which they receive updates from their existing friends and people they are subscribing to."
@@ -134,7 +134,7 @@
                     "feature": "Facebook Platform with Heroku",
                     "date": "14-09-2011",
                     "category": "for developers",
-                    "slug": "facebook Platform",
+                    "slug": "api",
                     "desc": "Facebook partners with Heroku for Facebook application development using the Facebook Platform."
                 },
                 {
@@ -169,14 +169,14 @@
                     "feature": "Trending Topics",
                     "date": "16-01-2014",
                     "category": "feed & content",
-                    "slug": "trending",
+                    "slug": "trends",
                     "desc": "Facebook launches Trending Topics for its web version in the US, UK, Canada, India, and Australia. This is based on feedback to a pilot version tested both on the web and mobile starting August 2013."
                 },
                 {
                     "feature": "Look Back",
                     "date": "04-02-2014",
                     "category": "image & video",
-                    "slug": "look back",
+                    "slug": "history",
                     "desc": "On February 4, on the occasion of its tenth anniversary, Facebook introduces its Look Back feature that creates an automated video for each person looking back on the person's life as recorded on Facebook. On February 7, Facebook adds the ability to edit the Look Back videos."
                 },
                 {
@@ -197,7 +197,7 @@
                     "feature": "Facebook Slingshot",
                     "date": "18-06-2014",
                     "category": "app",
-                    "slug": "",
+                    "slug": "instant",
                     "desc": "Facebook releases Facebook Slingshot, an instant messaging software application for sharing photos and videos with friends, for Android and iOS devices."
                 },
                 {
@@ -211,22 +211,22 @@
                     "feature": "Friend-to-friend payment",
                     "date": "17-03-2015",
                     "category": "payments",
-                    "slug": "friend-to-friend payment",
+                    "slug": "pay",
                     "desc": "Facebook introduces a free friend-to-friend payment service within its Messenger app. This is touted by some tech journalists as potential competition for PayPal's Venmo service."
                 },
                 {
                     "feature": "Instant Articles",
                     "date": "12-05-2015",
                     "category": "feed & content",
-                    "slug": "instant articles",
-                    "desc": "Facebook launches 'Instant Articles' for Publishers.[312] Publishers who use Instant Articles can opt in to have some of their articles shown to mobile users inside Facebook's app itself, without users having to leave the app and visit the customer's website. Initial launch partners include BuzzFeed, the New York Times, National Geographic and six others. The article as displayed on Facebook mimics the article on the website in terms of layout."
+                    "slug": "instant",
+                    "desc": "Facebook launches 'Instant Articles' for Publishers. Publishers who use Instant Articles can opt in to have some of their articles shown to mobile users inside Facebook's app itself, without users having to leave the app and visit the customer's website. Initial launch partners include BuzzFeed, the New York Times, National Geographic and six others. The article as displayed on Facebook mimics the article on the website in terms of layout."
                 },
                 {
                     "feature": "GIFs",
                     "date": "29-05-2015",
                     "category": "reactions",
                     "slug": "gifs",
-                    "desc": "Facebook launches 'Instant Articles' for Publishers.[312] Publishers who use Instant Articles can opt in to have some of their articles shown to mobile users inside Facebook's app itself, without users having to leave the app and visit the customer's website. Initial launch partners include BuzzFeed, the New York Times, National Geographic and six others. The article as displayed on Facebook mimics the article on the website in terms of layout."
+                    "desc": ""
                 },
                 {
                     "feature": "features for facebook business pages",
@@ -239,63 +239,70 @@
                     "feature": "Facebook Live for celebrities",
                     "date": "24-08-2015",
                     "category": "image & video",
-                    "slug": "live-streaming",
+                    "slug": "live",
                     "desc": "On August 5, Facebook launches live-streaming, initially restricted only to celebrities. Subsequently, on August 12, it announces that the feature will be made available to journalists and those with verified profiles."
                 },
                 {
                     "feature": "Facebook Live for all in US",
                     "date": "13-01-2016",
                     "category": "image & video",
-                    "slug": "facebook live for all in the US",
+                    "slug": "live",
                     "desc": "Facebook Live that was originally launched in August 2015 and limited to celebrities, becomes available to all U.S. iPhone users on January 28. On February 18, the global rollout begins. It becomes available to U.S. Android users in the week following February 26. Starting March 1, Facebook starts pushing live content more compared to older content. Commentators describe Facebook Live as marking Facebook's entry into the live-streaming space, competing with Twitter-owned Periscope."
                 },
                 {
                     "feature": "Facebook Reactions",
                     "date": "24-02-2016",
                     "category": "reactions",
-                    "slug": "facebook reactions",
+                    "slug": "react",
                     "desc": "Facebook releases Facebook Reactions to the general public. The feature allows people to use five additional reactions beyond just the 'like' action to convey their reaction to a post. The new reactions are 'love', 'haha', 'wow', 'sad', and 'anger'.Each user can add at most one reaction to a post."
                 },
                 {
                     "feature": "Basketball Game",
                     "date": "18-03-2016",
                     "category": "app",
-                    "slug": "basketball game",
+                    "slug": "game",
                     "desc": "Facebook provide 'Basketball Game' function in Messenger."
                 },
                 {
                     "feature": "Secret soccer game",
                     "date": "15-06-2016",
                     "category": "app",
-                    "slug": "secret soccer game",
+                    "slug": "game",
                     "desc": "Facebook introduces the secret Messenger soccer game, similar to the basketball game."
                 },
                 {
                     "feature": "Marketplace",
                     "date": "03-08-2016",
                     "category": "payments",
-                    "slug": "marketplace",
+                    "slug": "",
                     "desc": "In the US, UK, Australia, and New Zealand, Facebook launches Marketplace, a way to buy and sell items through Facebook. Marketplace appears as a tab in the mobile app. The feature has been compared to Craigslist."
                 },
                 {
                     "feature": "Reactions and mentions inside Messenger",
                     "date": "23-03-2017",
                     "category": "reactions",
-                    "slug": "reactions and mentions inside Messenger",
+                    "slug": "react",
                     "desc": "Facebook adds reactions and mentions inside Messenger (both the app and the web experience)."
+                },
+                {
+                    "feature": "Trust Indicators",
+                    "date": "06-11-2017",
+                    "category": "moderation",
+                    "slug": "journalism",
+                    "desc": "In an effort to combat fake news and promote authentic, fact-based journalism, Facebook launches Trust Indicators, a tool to help users determine how each particular publication works. The measure is also taken by Google and Twitter."
                 },
                 {
                     "feature": "Reactions to comments",
                     "date": "03-05-2017",
                     "category": "reactions",
-                    "slug": "reactions to comments",
+                    "slug": "react",
                     "desc": "Facebook adds reactions to comments. Reactions were previously available on messages (sent via Messenger) and Facebook posts but not in comments."
                 },
                 {
                     "feature": "Facebook Creator",
                     "date": "16-11-2017",
                     "category": "app",
-                    "slug": "facebook creator",
+                    "slug": "analytics",
                     "desc": "After live videos having skyrocketed on Facebook in the last months, the social network launches Facebook Creator, an app for mobile video posts offering influencers Live Creative Kit for adding intros and outros to broadcasts, a unified inbox of Facebook and Instagram comments plus Messenger chats, cross-posting to Twitter and expansive analytics."
                 },
                 {
@@ -304,6 +311,13 @@
                     "category": "app",
                     "slug": "messenger kids",
                     "desc": "Facebook launches Messenger Kids, a version of Messenger for children from ages six to 12. The app does not require a Facebook account (illegal for this range of age). Rather, parents are able to manage a child’s Messenger Kids app from their Facebook account, controlling which friends and family members the child is able to contact."
+                },
+                {
+                    "feature": "Expand of facial recognition",
+                    "date": "19-12-2017",
+                    "category": "moderation",
+                    "slug": "facial recognition",
+                    "desc": "In an effort to prevent people from impersonating others, Facebook expands its use of facial recognition technology by introducing new tool that would alert people that a friend, or a friend of a friend, uploaded a photo of them, even if they haven’t been tagged in the picture."
                 }
             ]
         },
@@ -315,28 +329,28 @@
                     "feature": "Creation of hashtags",
                     "date": "23-08-2007",
                     "category": "sharing",
-                    "slug": "",
+                    "slug": "tag",
                     "desc": "The hashtag (#), first proposed by user Chris Messina, debuts on Twitter."
                 },
                 {
                     "feature": "Promoted tweets",
                     "date": "13-04-2010",
                     "category": "advertising",
-                    "slug": "advertising",
+                    "slug": "sponsored",
                     "desc": "Twitter announces that it will start allowing for advertising in the form of promoted tweets – \"ordinary tweets that businesses and individuals want to highlight to a wider group of users.\""
                 },
                 {
                     "feature": "New homepage",
                     "date": "20-04-2011",
                     "category": "layout",
-                    "slug": "",
+                    "slug": "updateWebsite",
                     "desc": "Twitter tests a new homepage and phased out the \"Old Twitter.\" [40] However, a glitch came about after the page was launched, so the previous \"retro\" homepage was still in use until the issues were resolved; the new homepage was reintroduced on April 20."
                 },
                 {
                     "feature": "Feed layout",
                     "date": "08-12-2011",
                     "category": "layout",
-                    "slug": "",
+                    "slug": "updateWebsite",
                     "desc": "Twitter overhauls its website once more to feature the \"Fly\" design, which the service says is easier for new users to follow and promotes advertising. In addition to the Home tab, the Connect and Discover tabs are introduced along with a redesigned profile and timeline of Tweets. The site's layout is compared to that of Facebook. "
                 },
                 {
@@ -378,7 +392,7 @@
                     "feature": "Quality filter on iOS users",
                     "date": "23-03-2015",
                     "category": "moderation",
-                    "slug": "",
+                    "slug": "harassment",
                     "desc": "Twitter starts rolling out a \"Quality Filter\" to verified iOS users so that people can more easily keep bullying and unpleasant tweets out of their stream. A number of news articles commented that it worked quite well."
                 },
                 {
@@ -406,7 +420,7 @@
                     "feature": "Buy buttons",
                     "date": "30-09-2015",
                     "category": "payments",
-                    "slug": "",
+                    "slug": "pay",
                     "desc": "Twitter expands Buy buttons through partnerships with Bigcommerce, Demandware, and Shopify."
                 },
                 {
@@ -420,7 +434,7 @@
                     "feature": "Replacement of Favorite button",
                     "date": "03-11-2015",
                     "category": "react",
-                    "slug": "",
+                    "slug": "like",
                     "desc": "Twitter replaces the Favorite button with a Like button and the star symbol (used to symbolize favoriting) with a heart symbol. Twitter reports a 6% increase in usage of the feature after the change, and also appears to be experimenting with offering a more diverse set of emojis, prompting commentators to draw parallels with Facebook's Reactions feature."
                 },
                 {
@@ -434,7 +448,7 @@
                     "feature": "Algorithmic feed based on recommended tweets",
                     "date": "20-03-2016",
                     "category": "feed & content",
-                    "slug": "",
+                    "slug": "algorithmFeed",
                     "desc": "Twitter rolls out a change to its feed, making recommended tweets the default option, rather than the reverse chronological format that it had used since launch. The rollout officially begins on February 10. The rollout is completed on March 17, 2016. Users are allowed to opt out, but Twitter reports in April 2016 that the percentage of users who opted out is in the \"low single digits\"."
                 }, 
                 {
@@ -455,7 +469,7 @@
                     "feature": "Explore tab",
                     "date": "26-01-2017",
                     "category": "layout",
-                    "slug": "",
+                    "slug": "trends",
                     "desc": "Twitter launches the \"Explore\" tab, which replaces the \"Moments\" tab. The Explore tab bundles together Moments, trends, live video streams, and search."
                 },
                 {
@@ -482,154 +496,154 @@
                     "feature": "Hashtags",
                     "date": "01-01-2011",
                     "category": "sharing",
-                    "slug": "reaction",
+                    "slug": "tag",
                     "desc": "Instagram adds hashtags to help users discover both photographs and each other. Instagram encourages users to make tags both specific and relevant, rather than tagging generic words like \"photo\", to make photographs stand out and to attract like-minded Instagram users."
                 },
                 {
                     "feature": "Filters on camera",
-                    "date": "01-09-2012",
+                    "date": "22-03-2012",
                     "category": "image & video",
                     "slug": "filter",
-                    "desc": "Version 2.0 of Instagram goes live in the App Store (iOS) and included new and live filters"
+                    "desc": "Instagram includes new and live filters"
                 },
                 {
                     "feature": "Tilt-shift on camera",
-                    "date": "01-09-2012",
+                    "date": "28-05-2012",
                     "category": "image & video",
-                    "slug": "filter",
-                    "desc": "Version 2.0 of Instagram goes live in the App Store (iOS) and instant tilt–shift"
+                    "slug": "instant",
+                    "desc": "Instagram includes instant tilt–shift"
                 },
                 {
                     "feature": "High resolution on camera",
                     "date": "01-09-2012",
                     "category": "image & video",
-                    "slug": "filter",
-                    "desc": "Version 2.0 of Instagram goes live in the App Store (iOS) and high resolution photographs"
+                    "slug": "",
+                    "desc": "Instagram includes high resolution photographs"
                 },
                 {
                     "feature": "Optional borders on camera",
-                    "date": "01-09-2012",
+                    "date": "12-09-2012",
                     "category": "image & video",
-                    "slug": "filter",
+                    "slug": "",
                     "desc": "Version 2.0 of Instagram goes live in the App Store (iOS) and optional borders"
                 },
                 {
                     "feature": "One-click rotation on pictures editing",
-                    "date": "15-09-2012",
+                    "date": "19-09-2012",
                     "category": "image & video",
-                    "slug": "filter",
+                    "slug": "",
                     "desc": "Version 2.0 of Instagram goes live in the App Store (iOS) and one-click rotation"
                 },
                 {
                     "feature": "Photo user tagging",
                     "date": "01-05-2013",
                     "category": "image & video",
-                    "slug": "tag",
+                    "slug": "facial recognition",
                     "desc": "Instagram introduces photo tagging and \"Photos of You,\" a new tab on a user’s profile listing every picture he or she is tagged in."
                 },
                 {
                     "feature": "Video sharing",
                     "date": "13-06-2013",
                     "category": "image & video",
-                    "slug": "tag",
+                    "slug": "",
                     "desc": "Instagram launches video sharing."
                 },
                 {
                     "feature": "Embed links",
                     "date": "01-07-2013",
                     "category": "sharing",
-                    "slug": "link",
+                    "slug": "",
                     "desc": "Instagram makes it easier to share posts by adding links to embed photos and videos."
                 },
                 {
                     "feature": "Sponsored post",
                     "date": "01-11-2013",
                     "category": "advertising",
-                    "slug": "advertising",
+                    "slug": "sponsored",
                     "desc": "Instagram introduces sponsored post advertising targeting US users."
                 },
                 {
                     "feature": "Send photos",
                     "date": "12-12-2013",
                     "category": "feed & content",
-                    "slug": "messaging",
+                    "slug": "instant",
                     "desc": "Instagram adds Direct, a feature that allows users to send photos to specific people directly from the app. Instagram's primary intention with the Direct feature is to compete against messaging services, including Snapchat."
                 },
                 {
                     "feature": "Advanced editing tools",
                     "date": "01-07-2014",
                     "category": "image & video",
-                    "slug": "edit",
+                    "slug": "",
                     "desc": "Instagram launches new series of editing tools – allowing users to minutely customize image characteristics like brightness, contrast, highlights, and shadows."
                 },
                 {
                     "feature": "advanced business tools",
                     "date": "21-09-2014",
                     "category": "advertising",
-                    "slug": "advertising",
+                    "slug": "",
                     "desc": "Instagram makes itself more advertising-friendly by introducing a suite of business tools aimed at brands which offer insights and analytics related to their use of the image-sharing network."
                 },
                 {
                     "feature": "Call to action on advertising",
                     "date": "01-07-2015",
                     "category": "advertising",
-                    "slug": "advertising",
+                    "slug": "",
                     "desc": "Instagram bolsters up its advertising capabilities, testing ad formats that prompt users to do things such as installing an app, signing up for an email newsletter, or link to a retailer’s site to purchase a product."
                 },
                 {
                     "feature": "30-second videos for advertisers",
                     "date": "09-09-2015",
                     "category": "advertising",
-                    "slug": "advertising",
+                    "slug": "",
                     "desc": "Instagram allows 30-second ads for all advertisers – twice the 15-second limit given for users."
                 },
                 {
                     "feature": "Boomerang video",
                     "date": "01-10-2015",
                     "category": "app",
-                    "slug": "filter",
+                    "slug": "",
                     "desc": "Instagram launches Boomerang, an app where the user shoots a one-second burst of five photos that is turned into a silent video that plays forwards and then reverses in a loop."
                 },
                 {
                     "feature": "Disabled feed reading API",
                     "date": "17-11-2015",
                     "category": "for developers",
-                    "slug": "dev",
+                    "slug": "",
                     "desc": "Instagram kills off support from feed-reading applications."
                 },
                 {
                     "feature": "Switch between multiple accounts",
                     "date": "01-02-2016",
                     "category": "meta",
-                    "slug": "dev",
+                    "slug": "switch",
                     "desc": "Instagram starts enabling users to easily switch between multiple accounts."
                 },
                 {
                     "feature": "Algorithmically-driven Feed",
                     "date": "15-03-2016",
                     "category": "feed & content",
-                    "slug": "feed",
+                    "slug": "algorithmFeed",
                     "desc": "Instagram switches its feed from chronological to algorithmically-driven best posts first."
                 },
                 {
                     "feature": "Analytics on profile",
                     "date": "01-05-2016",
                     "category": "meta",
-                    "slug": "data",
+                    "slug": "analytics",
                     "desc": "Instagram announces that it will launch new business tools – including analytics that allow users to see audience demographics, post impressions, and reach."
                 },
                 {
                     "feature": "Instant translation",
                     "date": "01-06-2016",
                     "category": "feed & content",
-                    "slug": "data",
+                    "slug": "",
                     "desc": "Instagram announces instant translation feature."
                 },
                 {
                     "feature": "Comment filter",
                     "date": "01-07-2016",
                     "category": "reactions",
-                    "slug": "comment",
+                    "slug": "",
                     "desc": "Instagram announces that it will start allowing users to filter out comment streams – giving users the choice about which comments are acceptable or not for themselves. It also starts allowing users the opportunity to entirely turn off comments."
                 },
                 {
@@ -643,7 +657,7 @@
                     "feature": "Image Zoom",
                     "date": "02-08-2016",
                     "category": "image & video",
-                    "slug": "image",
+                    "slug": "",
                     "desc": "Instagram brings in Image Zoom, allowing users to zoom into images."
                 },
                 {
@@ -657,7 +671,7 @@
                     "feature": "Slides posts",
                     "date": "22-02-2017",
                     "category": "image & video",
-                    "slug": "posts",
+                    "slug": "post",
                     "desc": "Instagram launches a feature allowing users to post multiple photos in one post, in a slideshow-like fashion."
                 },
                 {
@@ -677,14 +691,14 @@
                     "feature": "Video sharing",
                     "date": "14-12-2012",
                     "category": "image & video",
-                    "slug": "video",
+                    "slug": "videoshare",
                     "desc": "Snapchat releases video sharing and begins prototyping monetization features."
                 },
                 {
                     "feature": "Snapchat Micro",
                     "date": "09-09-2013",
-                    "category": "layout",
-                    "slug": "responsive",
+                    "category": "app",
+                    "slug": "",
                     "desc": "Snapchat releases Snapchat Micro, an app for the Galaxy Gear smartwatch."
                 },
                 {
@@ -698,7 +712,7 @@
                     "feature": "Text chat and video calling",
                     "date": "01-05-2014",
                     "category": "feed & content",
-                    "slug": "messaging",
+                    "slug": "message",
                     "desc": "Snapchat adds ephemeral text chat and video calling."
                 },
                 {
@@ -719,63 +733,63 @@
                     "feature": "Snapcash",
                     "date": "17-11-2014",
                     "category": "payments",
-                    "slug": "money",
+                    "slug": "pay",
                     "desc": "Snapchat announces Snapcash, a tool allowing people to send each other money easily through the app."
                 },
                 {
                     "feature": "Sponsored Story",
                     "date": "23-11-2014",
                     "category": "advertising",
-                    "slug": "advertising",
+                    "slug": "sponsored",
                     "desc": "Snapchat includes a sponsored story from Samsung and the AMAs in its Our Story section. Although Snapchat has previously included topical stories related to the World Cup and Super Bowl in the Our Stories section, this is the first placement paid for by a brand."
                 },
                 {
                     "feature": "Snapchat Discover",
                     "date": "27-01-2015",
                     "category": "feed & content",
-                    "slug": "feed",
+                    "slug": "trends",
                     "desc": "Snapchat launches Discover, a daily feed comprising content from brands like ESPN, CNN, Vice, and Warner Music, National Geographic, Yahoo News, and others."
                 },
                 {
                     "feature": "Video Update",
                     "date": "01-07-2015",
                     "category": "image & video",
-                    "slug": "video",
+                    "slug": "interaction",
                     "desc": "Snapchat changes its interface to no longer require people to tap and hold to watch. They just need to tap to the relevant video. This move is interpreted as being an adaptation to the increasing length of video content being shared, that makes holding down more and more cumbersome. A number of other accompanying changes are made, including allowing people to have a profile GIF: they can take five photos of themselves and an animated GIF will be created by juxtaposing the five images."
                 },
                 {
                     "feature": "Snapchat Travel Mode",
                     "date": "12-08-2015",
                     "category": "meta",
-                    "slug": "data",
+                    "slug": "",
                     "desc": "Snapchat launches a new mode called Travel Mode in its iOS and Android apps, intended for people who are traveling and do not want to use too much mobile data. In this mode, Snaps, Stories, and Discovery content are not automatically loaded when the user opens the app, but are only loaded when the user taps on the piece of content."
                 },
                 {
                     "feature": "\"Snapchat Channel\"",
                     "date": "12-10-2015",
                     "category": "feed & content",
-                    "slug": "content",
+                    "slug": "",
                     "desc": "Snapchat gets rid of its 15-person team running the \"Snapchat Channel\" (its original content) and shuts the product down."
                 },
                 {
                     "feature": "Slow-Mo, Fast-forward and rewind video filters",
                     "date": "28-10-2015",
                     "category": "image & video",
-                    "slug": "video",
+                    "slug": "filter",
                     "desc": "Snapchat adds slow-mo, fast-forward and rewind video filters. It also adds 3D touch capabilities for iPhone 6S and iPhone 6S+ users."
                 },
                 {
                     "feature": "Chat 2.0",
                     "date": "29-03-2016",
                     "category": "feed & content",
-                    "slug": "messaging",
+                    "slug": "",
                     "desc": "Snapchat announces Chat 2.0, a collection of product updates. The updates include Snapchat Stories auto-advance (moving to the next story after one story has played), over 200 stickers that can be used in chat messages, video notes, audio notes, video and audio calls, multiple photo-sending, and on-the-fly toggling between video and audio calls.[107][108] Commentators find a connection between the announcements, arguing that the acquisition of Bitstrips might lead to the ability to create and send personalized stickers in the future."
                 },
                 {
                     "feature": "Editing",
                     "date": "23-05-2016",
                     "category": "image & video",
-                    "slug": "edit",
+                    "slug": "filter",
                     "desc": "Snapchat adds support for decorating snaps with 200+ stickers."
                 },
                 {
@@ -793,7 +807,6 @@
                     "desc": "Snapchat launches location sharing with a new feature called Snap Map. Snap Map lets you share your current location, which appears to friends on a map and updates when you open Snapchat."
                 }
 
-
             ]
         },
         {
@@ -805,7 +818,7 @@
                     "date": "20-02-2012",
                     "category": "sharing",
                     "slug": "link",
-                    "desc": "Pinterest releases a \"nopin\" HTML meta tag that allowed websites to opt out of allowing their content to be pinned.[9] Soon (February 24), Flickr implements the code to allow users to opt out of allowing their photos to be pinned."
+                    "desc": "Pinterest releases a \"nopin\" HTML meta tag that allowed websites to opt out of allowing their content to be pinned. Soon (February 24), Flickr implements the code to allow users to opt out of allowing their photos to be pinned."
                 },
                 {
                     "feature": "Pinterest adds automatic attribution",
@@ -818,35 +831,35 @@
                     "feature": "Pinterest launches business accounts",
                     "date": "14-10-2012",
                     "category": "advertising",
-                    "slug": "advertising",
+                    "slug": "switch",
                     "desc": "Pinterest launches business accounts allowing businesses to either convert their existing personal accounts into business accounts, or start from scratch."
                 },
                 {
                     "feature": "Allow users to report others",
                     "date": "17-10-2012",
                     "category": "moderation",
-                    "slug": "moderation",
+                    "slug": "harassment",
                     "desc": "Pinterest announces a new feature that would allow users to report others for negative and offensive activity or block other users if they do not want to view their content. Pinterest said they want to keep their community \"positive and respectful.\""
                 },
                 {
                     "feature": "Guided Search",
                     "date": "24-10-2014",
                     "category": "search engine",
-                    "slug": "searchengine",
+                    "slug": "",
                     "desc": "Pinterest announces and releases Guided Search, a new visual way to explore Pinterest's more than 30 billion pins—links or images chosen by users and assigned by them to topical collections."
                 },
                 {
                     "feature": "Promoted Pins",
                     "date": "12-05-2014",
                     "category": "advertising",
-                    "slug": "advertising",
+                    "slug": "sponsored",
                     "desc": "Pinterest launches \"Promoted Pins\" that would allow companies to sponsor results in its search results and category feeds."
                 },
                 {
                     "feature": "Direct Messaging",
                     "date": "06-08-2014",
                     "category": "feed & content",
-                    "slug": "messaging",
+                    "slug": "instant",
                     "desc": "Pinterest adds a direct messaging feature that allows users to discuss pins privately."
                 },
                 {
@@ -860,47 +873,47 @@
                     "feature": "Pin Picks",
                     "date": "06-10-2014",
                     "category": "feed & content",
-                    "slug": "content",
+                    "slug": "",
                     "desc": "Pinterest releases \"Pin Picks\" that are weekly curations of their own content."
                 },
                 {
                     "feature": "Promoted pins to all advertisers",
                     "date": "28-12-2014",
                     "category": "advertising",
-                    "slug": "advertising",
+                    "slug": "",
                     "desc": "Pinterest opens up promoted pins to all advertisers, following what they perceive as success of their beta program."
                 },
                 {
                     "feature": "New search filters",
                     "date": "23-01-2015",
                     "category": "search engine",
-                    "slug": "searchengine",
+                    "slug": "",
                     "desc": "Pinterest debuts new search filters that give users more control over the pins they see. Commentators believe the aim of these is to go after the male demographic, which tends to be put off by the female-heavy pins on the site."
                 },
                 {
                     "feature": "Promoted Pins in users' home feeds",
                     "date": "27-01-2015",
                     "category": "advertising",
-                    "slug": "advertising",
+                    "slug": "sponsored",
                     "desc": "Pinterest announces that it will begin showing Promoted Pins in users' home feeds, thereby expanding the reach of Promoted Pins considerably."
                 },
                 {
                     "feature": "Direct Download",
                     "date": "11-02-2015",
                     "category": "meta",
-                    "slug": "data",
+                    "slug": "",
                     "desc": "Pinterest announces a partnership with Apple Inc. whereby people using Pinterest's iOS app on iPhones or iPads can directly download iOS apps from within Pinterest itself, using special types of pins called app Pins."
                 },
                 {
                     "feature": "Pin It Button",
                     "date": "02-04-2015",
                     "category": "layout",
-                    "slug": "cta",
+                    "slug": "",
                     "desc": "Pinterest debuts a new \"Pin It\" button that requires fewer steps to bookmark a Pin, and that, according to tests, increases the number of pinning actions by 3%. The new button is developed by the team from Icebergs, a company acquired by Pinterest the previous year."
                 },
                 {
                     "feature": "Cinematic Pins",
-                    "date": "18-05-2015",
+                    "date": "18-06-2015",
                     "category": "image & video",
                     "slug": "video",
                     "desc": "Pinterest introduces a new video ad format called Cinematic Pins, where the video plays only either while the user is scrolling or if the user taps on the pin. This is in contrast with existing autoplay videos used by Facebook and other companies for their feeds."
@@ -909,28 +922,28 @@
                     "feature": "Buyable Pins",
                     "date": "18-05-2015",
                     "category": "advertising",
-                    "slug": "advertising",
+                    "slug": "pay",
                     "desc": "Pinterest announces the launch of Buyable Pins, a special type of pin that can be used to make purchases within Pinterest itself. When users select a Buyable Pin, they have the option of choosing the item they wish to buy (for instance, choosing between different dress sizes and colors), and they can then make the purchase within the app using a variety of payment methods, including Apple Pay. Launch partners include Shopify and Demandware. The buyable pins are free to use, and Pinterest does not take a cut of the purchases made. However, Pinterest intends to allow sellers to promote buyable pins just as they can promote other pins."
                 },
                 {
                     "feature": "Visual search",
                     "date": "08-11-2015",
                     "category": "search engine",
-                    "slug": "searchengine",
+                    "slug": "",
                     "desc": "Pinterest begins rolling out a visual search tool that allows users to select part of an image and find similar Pins."
                 },
                 {
                     "feature": "Video player",
                     "date": "01-08-2016",
                     "category": "image & video",
-                    "slug": "video",
+                    "slug": "",
                     "desc": "Pinterest launches a video player that lets users and brands upload and store clips of any length straight to the site. It also begins implementing visual search tools on videos."
                 },
                 {
                     "feature": "Tried it checkmark",
                     "date": "10-11-2016",
                     "category": "layout",
-                    "slug": "cta",
+                    "slug": "",
                     "desc": "Pinterest begins showing a \"Tried it\" checkmark on Pins, which allows users to share the products, recipes, and ideas they have tried."
                 },
                 {
@@ -958,14 +971,14 @@
                     "feature": "Top videos page",
                     "date": "22-07-2005",
                     "category": "layout",
-                    "slug": "",
+                    "slug": "trends",
                     "desc": ""
                 },
                 {
                     "feature": "Rating system",
                     "date": "17-08-2005",
                     "category": "reactions",
-                    "slug": "",
+                    "slug": "react",
                     "desc" : "Add a 5-star rating system"
                 },
                 {
@@ -986,14 +999,14 @@
                     "feature": "Subscriptions",
                     "date": "31-10-2005",
                     "category": "feed & content",
-                    "slug": "",
+                    "slug": "subscribe",
                     "desc": "Users can subscribe to channels of other users."
                 },
                 {
                     "feature": "Personalization of profiles",
                     "date": "31-12-2005",
                     "category": "feed & content",
-                    "slug": "",
+                    "slug": "profile",
                     "desc": "Users can add a banner, a photo profile, description and other links in bio of their profile."
                 },
                 {
@@ -1035,7 +1048,7 @@
                     "feature": "Video analytics",
                     "date": "22-03-2008",
                     "category": "meta",
-                    "slug": "",
+                    "slug": "analytics",
                     "desc": "Users can monitor the activity of their channel thanks to a new analytic statistic tool."
                 },
                 {
@@ -1088,11 +1101,11 @@
                     "desc": "Videos can be seen in 60 fps (before was 30fps)."
                 },
                 {
-                    "feature": "360 videos",
+                    "feature": "360° videos",
                     "date": "02-03-2015",
                     "category": "image & video",
                     "slug": "",
-                    "desc": "Youtube support now the 360 videos. It ables to drag on the video to move the direction of the camera."
+                    "desc": "Youtube support now the 360° videos. It ables to drag on the video to move the direction of the camera."
                 },
                 {
                     "feature": "Youtube RED",
@@ -1118,105 +1131,105 @@
                     "feature": "Linkedin for Groups",
                     "date": "14-07-2005",
                     "category": "search engine",
-                    "slug": "linkedin for groups",
+                    "slug": "premium",
                     "desc": "LinkedIn launches LinkedIn for Groups, a premium service aimed at power users like recruiters, analysts and researchers."
                 },
                 {
                     "feature": "LinkedIn Business Accounts",
                     "date": "22-08-2005",
                     "category": "search engine",
-                    "slug": "linkedIn business accounts",
+                    "slug": "premium",
                     "desc": "LinkedIn launches a premium service, LinkedIn Business Accounts, which gives businesses access to more powerful search tools."
                 },
                 {
                     "feature": "'who's been viewing your profile'feature",
                     "date": "11-05-2007",
                     "category": "reactions",
-                    "slug": "who's been viewing your profile",
+                    "slug": "",
                     "desc": "LinkedIn launches 'who's been viewing your profile' feature."
                 },
                 {
                     "feature": "LinkedIn for smartphone",
                     "date": "18-05-2007",
                     "category": "app",
-                    "slug": "linkedIn smartphone",
+                    "slug": "mobile",
                     "desc": "LinkedIn launches a mobile version of the site. "
                 },
                 {
                     "feature": "People you may know feature",
                     "date": "03-04-2008",
                     "category": "feed & content",
-                    "slug": "people you may know",
+                    "slug": "",
                     "desc": "LinkedIn launches the 'People You May Know' feature. "
                 },
                 {
                     "feature": "Targeted advertising",
                     "date": "11-09-2008",
                     "category": "advertising",
-                    "slug": "targeted advertising",
+                    "slug": "",
                     "desc": "LinkedIn launches targeted advertising - allowing advertisers to target specific sections of LinkedIn users (InCrowds) based on the information in their profiles."
                 },
                 {
                     "feature": "'Apply with LinkedIn' feature'",
                     "date": "11-07-2011",
                     "category": "layout",
-                    "slug": "apply with linkedin",
+                    "slug": "",
                     "desc": "LinkedIn launches a new feature allowing companies to include an 'Apply with LinkedIn' button on job listing pages. The new plugin will allow potential employees to apply for positions using their LinkedIn profiles as resumes. All applications will also be saved under a 'Saved Jobs' tab."
                 },
                 {
                     "feature": "Endorse each other's skills",
                     "date": "17-09-2012",
                     "category": "reactions",
-                    "slug": "endorse skills",
+                    "slug": "",
                     "desc": "LinkedIn starts allowing users to endorse each other's skills."
                 },
                 {
                     "feature": "Influencer program",
                     "date": "29-11-2012",
                     "category": "sharing",
-                    "slug": "influencer program",
+                    "slug": "",
                     "desc": "LinkedIn launches the 'Influencer' program, allowing selected 'thought leaders' (their term) to share original content directly with LinkedIn users."
                 },
                 {
                     "feature": "Influencer program",
                     "date": "23-07-2013",
                     "category": "advertising",
-                    "slug": "sponsored updates ad service",
+                    "slug": "sponsored",
                     "desc": "LinkedIn announces their Sponsored Updates ad service. Individuals and companies can now pay a fee to have LinkedIn sponsor their content and spread it to their user base. This is a common way for social media sites such as LinkedIn to generate revenue."
                 },
                 {
                     "feature": "Project Voyager",
                     "date": "01-11-2015",
                     "category": "app",
-                    "slug": "project voyager",
+                    "slug": "",
                     "desc": "LinkedIn introduces new mobile app, codenamed 'Project Voyager', making the design more intuitive."
                 },
                 {
                     "feature": "LinkedIN Lite, LinkedIn Placements, Starter Pack",
                     "date": "12-09-2016",
                     "category": "payments",
-                    "slug": "apps",
+                    "slug": "",
                     "desc": "LinkedIn unveils three new products that it will roll out in India: (1) LinkedIn Lite, a smaller version of the mobile website for people with slower internet connections; (2) LinkedIn Placements, an online screening test intended for students to take; and (3) Starter Pack, a marketing package for small and mid-sized businesses."
                 },
                 {
                     "feature": "LinkedIN Learning",
                     "date": "22-09-2016",
                     "category": "search engine",
-                    "slug": "linkedIn Learning",
+                    "slug": "",
                     "desc": "LinkedIn launches LinkedIn Learning. The new website caters both to employees seeking career advancement as well as employers wishing to train their employees. A large part of the content is from Lynda, which LinkedIn had acquired in April 2015."
                 },
                 {
                     "feature": "Open Candidates",
                     "date": "06-11-2016",
                     "category": "search engine",
-                    "slug": "open candidates",
+                    "slug": "",
                     "desc": "LinkedIn launches Open Candidates, a feature that allows users to signal to recruiters that they are looking for a job. The feature allows only those recruiters using LinkedIn's premium-tier service to see whether a user is using Open Candidates."
                 },
                 {
                     "feature": "Website redesign",
                     "date": "19-01-2017",
                     "category": "layout",
-                    "slug": "website redesign",
+                    "slug": "updateWebsite",
                     "desc": "LinkedIn unveils its new desktop website redesign, which will roll out over several weeks. The new design is said to have 'a simpler, app-like look' and be similar to the design of Facebook's desktop website"
                 }
             ]

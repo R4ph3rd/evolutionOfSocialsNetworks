@@ -90,9 +90,6 @@ class Node {
     display(){
         if (isHover(this.pos, (nodeSize/2) - 2)){
             push()
-                noStroke();
-                fill(245);
-                rect(this.pos.x, this.pos.y, )
                 noFill();
                 stroke(255);
                 strokeWeight(.8);

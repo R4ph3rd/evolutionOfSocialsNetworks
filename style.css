@@ -100,7 +100,7 @@ h3 + p{
     justify-content: center;
     /* padding-top:20px;
     padding-bottom:20px; */
-    --gray: 32 ;
+    --gray: 22 ;
     background-color:rgb(var(--gray),var(--gray),var(--gray));
     border-radius:8px;
     /* box-shadow: 2px 2px 8px rgba(255,255,255,.12); */

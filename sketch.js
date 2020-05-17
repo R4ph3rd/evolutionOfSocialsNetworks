@@ -87,8 +87,8 @@ function setup () {
     smooth();
     colorMode(RGB, 255,255,255,255);
 
-    eraColor = color(255,12);
-    defineEras(socials_networks.eras);
+    // eraColor = color(255,12);
+    // defineEras(socials_networks.eras);
 
     let heightLine = height / (Array.from(socials_networks.socials).length + 1) ;
     let iconBar = document.getElementById('iconsBar');
@@ -124,7 +124,7 @@ function draw() {
         background(8);
     pop();
 
-    displayEras();
+    // displayEras();
     
     // links between nodes
     
@@ -222,7 +222,7 @@ function drawLinksBetweenNodes(array){
             let c2 = createVector(map(noise(0.02, 5, 12), 0 , 1, -150, 150), map(noise(0.04, 15, 30), 0 , 1, -150, 150));
 
             push();
-                strokeWeight(.5);
+                strokeWeight(2);
                 stroke(node.colorNode);
                 noFill();
                 curve(node.pos.x + c1.x, node.pos.y + c1.y,
