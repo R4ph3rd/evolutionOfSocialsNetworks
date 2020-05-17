@@ -69,10 +69,26 @@ class Node {
         `
 
         document.querySelector('body').appendChild(div)
+
+        let divInDOM = document.getElementById(this.id);
+        let pos = divInDOM.getBoundingClientRect() ;
+        // let nodeCards = document.getElementsByClassName('nodeCard');
+
+        if (pos.bottom > height){
+            console.log(this.id, 'ça déborde par le bas')
+            divInDOM.style.top = (this.pos.y - pos.height) + 'px';
+        }
+
+        if (pos.right > width){
+            console.log(this.id, 'ça déborde par la droite')
+            divInDOM.style.left = (this.pos.x - pos.width) + 'px';
+        }
+        
+
     }
 
     display(){
-        if (isHover(this.pos, (nodeSize/2) + 10)){
+        if (isHover(this.pos, (nodeSize/2) - 2)){
             push()
                 noStroke();
                 fill(245);

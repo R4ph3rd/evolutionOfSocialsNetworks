@@ -22,11 +22,19 @@ let grd ;
 let eraColor ;
 let colors = [ // for nodes / links from violet to yellow
     {
+        color : '#fee2b3',
+        category : ''
+    },
+    {
         color : '#B8A3E0',
         category : ''
     },
     {
         color : '#581845',
+        category : ''
+    },
+    {
+        color : '#ad6989',
         category : ''
     },
     {
@@ -46,9 +54,21 @@ let colors = [ // for nodes / links from violet to yellow
         category : ''
     },
     {
+        color : '#f4a548',
+        category : ''
+    },
+    {
         color : '#2D3E86', //blue
         category: ''
-    }
+    },
+    {
+        color : '#cceabb', //blue
+        category: ''
+    },
+    {
+        color : '#035aa6', //blue
+        category: ''
+    },
 ];
 
 function preload(){
@@ -65,10 +85,6 @@ function setup () {
 
     eraColor = color(255,12);
     defineEras(socials_networks.eras);
-
-    // grd = drawingContext.createLinearGradient(0, 0, width, height);
-    // grd.addColorStop(0, 'rgb(247, 238, 239)');   
-    // grd.addColorStop(1, 'rgb(245, 234, 219)');
 
     let heightLine = height / (Array.from(socials_networks.socials).length + 1) ;
     let iconBar = document.getElementById('iconsBar');
@@ -128,31 +144,10 @@ function draw() {
     }
 }
 
-// function updateDisplay(){
-//     push();
-//         background(8);
-//     pop();
-
-//     displayEras();
-    
-//     // links between nodes
-//     for (let slug of similarsShow){
-//         let slugArray = [];
-//         for (let network of networks){
-//             let networkNodesArray = network.changelog.filter ( node => node.slug == slug)
-//             slugArray = slugArray.concat(networkNodesArray);
-
-//             network.display();
-//         }
-
-//         drawLinksBetweenNodes(slugArray);
-//     }
-// }
-
 function mouseClicked(){
     for (let network of networks){
         network.changelog.find( node => {
-            if (isHover(node.pos, nodeSize/2 ) && node.slug != undefined && node.slog != ''){
+            if (isHover(node.pos, nodeSize/2 ) && node.slug != undefined && node.slug != ''){
                 if (!similarsShow.includes(node.slug)){
                     similarsShow.push(node.slug);
                 } else {
@@ -161,7 +156,6 @@ function mouseClicked(){
             }
         })
     }
-    // updateDisplay();
 }
 
 
