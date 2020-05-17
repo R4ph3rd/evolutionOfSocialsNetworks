@@ -7,7 +7,7 @@ class Network {
             return new Node(log, pos, name);
         }) ;
         this.posLine = pos ;
-        this.colorLine = hexToRgb('#000000');
+        this.colorLine = hexToRgb('#FFFFFF');
         this.colorLine = color( this.colorLine.r, this.colorLine.g, this.colorLine.b);
         this.colorLine.setAlpha(100);
     }
@@ -23,7 +23,7 @@ class Network {
         pop();
 
         push()
-            strokeWeight(.5);
+            strokeWeight(.8);
             stroke(this.colorLine);
             // console.log(this.colorLine)
             line(this.posLine.x + 8, this.posLine.y, width, this.posLine.y);
@@ -51,7 +51,8 @@ class Node {
         this.pos = createVector(definePos(log.date), posLine.y) ;
         this.id = networkName + '_' + this.feature.trim().toLowerCase();
         this.colorNode = defineColor(log.category);
-        this.colorNode.setAlpha(50);
+        this.colorNode.setAlpha(120);
+
 
         let div = document.createElement('div');
         div.id = this.id;
@@ -61,6 +62,7 @@ class Node {
 
         div.innerHTML = `
             <span class="date">${this.date}</span>
+            <h4>${this.category}</h4>
             <h3>${this.feature}</h3>
             <p class="desc">${this.desc}</p>
 
@@ -76,8 +78,8 @@ class Node {
                 fill(245);
                 rect(this.pos.x, this.pos.y, )
                 noFill();
-                stroke(0);
-                strokeWeight(.5);
+                stroke(255);
+                strokeWeight(.8);
                 ellipse(this.pos.x, this.pos.y,30,30);
             pop();
 
@@ -88,14 +90,14 @@ class Node {
 
         } else {
             if (Array.from(document.getElementById(this.id).classList).includes('visible')){
-                this.colorNode.setAlpha(50);
+                this.colorNode.setAlpha(120);
                 document.getElementById(this.id).classList.remove('visible');
             }
 
             if (similarsShow.includes(this.slug)){
                 this.colorNode.setAlpha(255);
             } else {
-                this.colorNode.setAlpha(50);
+                this.colorNode.setAlpha(120);
             }
         }
 
@@ -103,6 +105,20 @@ class Node {
             fill(this.colorNode);
             noStroke();
             ellipse(this.pos.x, this.pos.y, nodeSize, nodeSize);
+
+            // for (let i = nodeSize + 10 ; i > nodeSize ; i --){
+            //     let k = map(i, nodeSize + 10, nodeSize, 90, 0);
+            //     let w = this.colorNode.toString('rgba%').split('rgba(')[1].split('%').join('').split(',');
+            //     w[w.length - 1] = k.toString() ;
+            //     w.join();
+            //     if(frameCount % 30 == 0) console.log(w.join())
+            //     push();
+            //         noFill();
+            //         stroke(w.join());
+            //         strokeWeight(1)
+            //         ellipse(this.pos.x, this.pos.y, i, i);
+            //     pop();
+            // }
         pop();
     }
 }

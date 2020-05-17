@@ -35,7 +35,7 @@ canvas {
     max-width:200px;
     max-height:200px;
     padding:10px 15px;
-    background: linear-gradient(to bottom, #F7F7F7, white);
+    background: linear-gradient(to bottom, rgb(38, 37, 36), rgb(32,32,32));
     box-shadow: 2px 2px 8px rgba(0,0,0, .12);
     border-radius:12px;
 
@@ -51,7 +51,7 @@ canvas {
     font-family:'Open Sans';
     font-weight:600;
     text-transform: uppercase;
-    color: rgb(188, 188, 192);
+    color: rgb(99, 99, 107);
     font-size:12px;
     margin-bottom:8px;
 }
@@ -60,14 +60,24 @@ h3{
     font-family:'Open Sans';
     font-weight:700;
     font-size:18px;
-    color:rgb(44, 44, 48);
+    color:rgb(222, 222, 233);
+    margin-bottom:8px;
+}
+
+h4{
+    margin-top:8px;
+    font-family:'Open Sans';
+    font-weight:600;
+    font-size:12px;
+    text-transform: uppercase;
+    color:rgb(150, 150, 160); 
 }
 
 h3 + p{
     font-family:'Open Sans';
     font-weight:300;
     font-size:14px;
-    color: rgb(100, 100, 109);
+    color: rgb(175, 175, 187);
 }
 
 .visible{
@@ -86,14 +96,16 @@ h3 + p{
     justify-content: center;
     /* padding-top:20px;
     padding-bottom:20px; */
-    background-color:#F7F7F7;
+    --gray: 32 ;
+    background-color:rgb(var(--gray),var(--gray),var(--gray));
     border-radius:8px;
-    box-shadow: 2px 2px 8px rgba(0,0,0,.12);
+    /* box-shadow: 2px 2px 8px rgba(255,255,255,.12); */
 }
 
 .icon{
     width:32px;
     height:32px;
+    filter: saturate(20)
 }
 
 .facebook{ background-image: url('./data/icons/social-006_facebook.png') }

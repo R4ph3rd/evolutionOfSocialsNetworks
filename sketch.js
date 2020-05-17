@@ -19,39 +19,35 @@ let similarsShow = [];
 // COLORS SETTINGS
 let grd ;
 let eraColor ;
-let colors = [ // for nodes / links
+let colors = [ // for nodes / links from violet to yellow
     {
-        color : '#333399',
+        color : '#B8A3E0',
         category : ''
     },
     {
-        color : '#ff00cc',
+        color : '#581845',
         category : ''
     },
     {
-        color : '#000046',
+        color : '#900C3F',
         category : ''
     },
     {
-        color : '#1CB5E0',
+        color : '#C70039',
         category : ''
     },
     {
-        color : '#f6d743',
+        color : '#FF5733',
         category : ''
     },
     {
-        color : '#649d66',
+        color : '#FFC30F',
         category : ''
     },
     {
-        color : '#f6f578',
-        category : ''
-    },
-    {
-        color : '#f79071',
-        category : ''
-    },
+        color : '#2D3E86', //blue
+        category: ''
+    }
 ];
 
 function preload(){
@@ -65,12 +61,12 @@ function setup () {
     smooth();
     colorMode(RGB, 255,255,255,255);
 
-    eraColor = color(255,90);
+    eraColor = color(255,12);
     defineEras(socials_networks.eras);
 
-    grd = drawingContext.createLinearGradient(0, 0, width, height);
-    grd.addColorStop(0, 'rgb(247, 238, 239)');   
-    grd.addColorStop(1, 'rgb(245, 234, 219)');
+    // grd = drawingContext.createLinearGradient(0, 0, width, height);
+    // grd.addColorStop(0, 'rgb(247, 238, 239)');   
+    // grd.addColorStop(1, 'rgb(245, 234, 219)');
 
     let heightLine = height / (Array.from(socials_networks.socials).length + 1) ;
     let iconBar = document.getElementById('iconsBar');
@@ -86,7 +82,7 @@ function setup () {
 
     // noLoop();
 
-    
+    frameRate(30)
 }
 
 
@@ -103,7 +99,7 @@ function draw() {
         // drawingContext.fillStyle = grd;
         // noStroke();
         // rect(0, 0, graphRange.max, window.innerHeight);
-        background(245, 234, 219);
+        background(8);
     pop();
 
     displayEras();
@@ -222,12 +218,12 @@ function displayEras(){
         push();
             fill(eraColor);
             noStroke();
-            rect(era.start, 0.01 * height, era.width, 0.99 * height, 8);
+            rect(era.start, 0.02 * height, era.width, 0.98 * height, 8);
 
             textSize(24);
             textStyle(BOLD);
-            fill(30,200);
-            text(era.title, era.titlePos, 50);
+            fill(222, 222, 233, 220);
+            text(era.title, era.titlePos, 70);
         pop();
     }
 }
@@ -268,7 +264,7 @@ const defineColor = (category) => {
     } else {
         definedColor = definedColor.color
     }
-
+    console.log(definedColor)
     return color(definedColor) ;
 }
 
