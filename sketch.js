@@ -69,6 +69,10 @@ let colors = [ // for nodes / links from violet to yellow
         color : '#035aa6', //blue
         category: ''
     },
+    {
+        color : '#6a8caf', //blue
+        category: ''
+    },
 ];
 
 function preload(){
@@ -281,6 +285,7 @@ const defineColor = (category) => {
                 definedColor = filteredColors[i].color;
                 filteredColors[i].category = category;
             } else {
+                console.log(category)
                 definedColor = '#FFFFFF';
             }
         } else {

@@ -515,7 +515,7 @@
                 },
                 {
                     "feature": "One-click rotation on pictures editing",
-                    "date": "06-09-2012",
+                    "date": "15-09-2012",
                     "category": "image & video",
                     "slug": "filter",
                     "desc": "Version 2.0 of Instagram goes live in the App Store (iOS) and one-click rotation"
@@ -1006,7 +1006,7 @@
                 {
                     "feature": "Comments",
                     "date": "02-05-2006",
-                    "category": "reacts",
+                    "category": "reactions",
                     "slug": "",
                     "desc": "Users can react to videos in comments."
                 },
@@ -1069,7 +1069,7 @@
                 {
                     "feature": "Thumbs rating system",
                     "date": "05-03-2010",
-                    "category": "reacts",
+                    "category": "reactions",
                     "slug": "",
                     "desc": "Rating system is changed to a boolean new one : thumb up or thumb down, green thumb or red thumb."
                 },
