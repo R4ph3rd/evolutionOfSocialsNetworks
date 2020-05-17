@@ -535,7 +535,7 @@
                     "desc": "Instagram introduces photo tagging and \"Photos of You,\" a new tab on a user’s profile listing every picture he or she is tagged in."
                 },
                 {
-                    "feature": "Video sharing.",
+                    "feature": "Video sharing",
                     "date": "13-06-2013",
                     "category": "video",
                     "slug": "tag",
@@ -563,7 +563,7 @@
                     "desc": "Instagram adds Direct, a feature that allows users to send photos to specific people directly from the app. Instagram's primary intention with the Direct feature is to compete against messaging services, including Snapchat."
                 },
                 {
-                    "feature": "advanced editing tools",
+                    "feature": "Advanced editing tools",
                     "date": "01-07-2014",
                     "category": "photo",
                     "slug": "edit",
