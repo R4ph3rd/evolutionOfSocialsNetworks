@@ -100,19 +100,6 @@ function windowResized() {
 
 
 function draw() {
-    // clear();
-    push();
-        background(8);
-    pop();
-
-    displayEras();
-
-    for (let network of networks){
-        network.display();
-    }
-}
-
-function updateDisplay(){
     push();
         background(8);
     pop();
@@ -125,15 +112,34 @@ function updateDisplay(){
         for (let network of networks){
             let networkNodesArray = network.changelog.filter ( node => node.slug == slug)
             slugArray = slugArray.concat(networkNodesArray);
+
+            network.display();
         }
 
         drawLinksBetweenNodes(slugArray);
     }
-
-    for (let network of networks){
-        network.display();
-    }
 }
+
+// function updateDisplay(){
+//     push();
+//         background(8);
+//     pop();
+
+//     displayEras();
+    
+//     // links between nodes
+//     for (let slug of similarsShow){
+//         let slugArray = [];
+//         for (let network of networks){
+//             let networkNodesArray = network.changelog.filter ( node => node.slug == slug)
+//             slugArray = slugArray.concat(networkNodesArray);
+
+//             network.display();
+//         }
+
+//         drawLinksBetweenNodes(slugArray);
+//     }
+// }
 
 function mouseClicked(){
     for (let network of networks){
