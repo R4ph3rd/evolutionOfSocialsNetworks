@@ -12,6 +12,7 @@ let graphRange = {
 
 // UI SETTINGS
 let nodeSize = 20;
+let openSans ;
 
 // INTERACTIONs SETTINGS
 let similarsShow = [];
@@ -52,6 +53,7 @@ let colors = [ // for nodes / links from violet to yellow
 
 function preload(){
     socials_networks = loadJSON('./data/socials_networks.json');
+    openSans = loadFont('./fonts/OpenSans-Bold.ttf');
 }
 
 function setup () {
@@ -82,7 +84,8 @@ function setup () {
 
     // noLoop();
 
-    frameRate(30)
+    frameRate(30);
+    textFont(openSans);
 }
 
 

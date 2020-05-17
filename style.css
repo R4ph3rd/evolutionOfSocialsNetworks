@@ -105,7 +105,7 @@ h3 + p{
 .icon{
     width:32px;
     height:32px;
-    filter: saturate(20)
+    filter: brightness(0.7) invert(.7)  hue-rotate(120deg) saturate(100%);
 }
 
 .facebook{ background-image: url('./data/icons/social-006_facebook.png') }
