@@ -64,7 +64,7 @@ class Node {
 
         div.innerHTML = `
             <span class="date">${this.date}</span>
-            <h4>${this.category}</h4>
+            <h4 style="color:${this.colorNode.toString('#rgb')}">${this.category}</h4>
             <h3>${this.feature}</h3>
             <p class="desc">${this.desc}</p>
 
