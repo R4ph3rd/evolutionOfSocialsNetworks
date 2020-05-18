@@ -237,7 +237,7 @@ function drawLinksBetweenNodes(array){
 
             push();
                 strokeWeight(2);
-                stroke(node.colorNode);
+                stroke(lerpColor(node.colorNode, node1.colorNode, .5));
                 noFill();
                 curve(node.pos.x + c1.x, node.pos.y + c1.y,
                     node.pos.x, node.pos.y, 
