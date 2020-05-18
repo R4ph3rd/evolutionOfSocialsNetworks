@@ -134,10 +134,11 @@ h3 + p{
 }
 
 .info .button{
+    --gray01 : 100;
     z-index:100;
-    border: 2px solid rgb(50,50,50);
+    border: 2px solid rgb(var(--gray01),var(--gray01),var(--gray01));
     border-radius: 30px;
-    color:rgb(50,50,50);
+    color:rgb(var(--gray01),var(--gray01),var(--gray01));
     font-weight:700;
     font-size: 12px;
 
