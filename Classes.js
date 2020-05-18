@@ -15,9 +15,11 @@ class Network {
     display(){
 
         push();
-            fill(this.colorLine);
+            fill(180,180,180);
             noStroke(); 
             text(this.name, this.posLine.x, this.posLine.y - 50);
+            fill(this.colorLine);
+            text(this.creation, this.posLine.x, this.posLine.y - 30);
 
             rect(this.posLine.x, this.posLine.y - 10, 8, 20, 2);
         pop();

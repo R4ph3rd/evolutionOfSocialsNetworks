@@ -10,6 +10,10 @@ let graphRange = {
     max:window.innerWidth
 }
 
+// let minYear = '01-01-2002' ;
+let distYear ;
+let years = []
+
 // UI SETTINGS
 let nodeSize = 20;
 let openSans ;
@@ -87,7 +91,7 @@ function setup () {
     smooth();
     colorMode(RGB, 255,255,255,255);
 
-    // eraColor = color(255,12);
+    eraColor = color(255,12);
     // defineEras(socials_networks.eras);
 
     let heightLine = height / (Array.from(socials_networks.socials).length + 1) ;
@@ -145,6 +149,8 @@ function draw() {
     for (let network of networks){
         network.display();
     }
+
+    displayYears();
     
 }
 
@@ -195,6 +201,14 @@ function defineRanges(){
         })
     })
 
+    let oneYear = abs(new Date('2000-01-01').valueOf() - new Date('2001-01-01').valueOf());
+    let minYear = new Date('2002-01-01').valueOf();
+
+    for (let year = minYear ; year < dateRange.max + oneYear ; year += oneYear){
+        let thisyear = '01-01-' + (1900 + new Date(year).getYear()) ;   
+        years.push(thisyear);
+
+    }
 
     graphRange.min = 150 ;
     let rangeBetweenDays = abs(new Date('2000-01-01').valueOf() - new Date('2000-02-01').valueOf());
@@ -253,6 +267,21 @@ function displayEras(){
     }
 }
 
+
+function displayYears(){
+    for (let year of years){
+        push();
+            fill(eraColor);
+            noStroke();
+            rect(definePos(year) - 2, 0.02 * height, 4, 0.98 * height, 8);
+
+            textSize(16);
+            textStyle(BOLD);
+            fill(222, 222, 233, 220);
+            text(year.split('-')[2], definePos(year) - 17, 70);
+        pop();
+    }
+}
 
 
 const defineEras = (erasArray) => {
