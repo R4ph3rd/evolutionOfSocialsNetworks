@@ -122,3 +122,81 @@ h3 + p{
 .google+{ background-image: url('./data/icons/svg/googleplus.svg') }
 .youtube{ background-image: url('./data/icons/svg/youtube.svg') }
 .snapchat{ background-image: url('./data/icons/svg/snapchat.svg') }
+
+
+
+/* info style */
+
+.info{
+    position:fixed;
+    top: 12px;
+    right:12px;
+}
+
+.info .button{
+    z-index:100;
+    border: 2px solid rgb(50,50,50);
+    border-radius: 30px;
+    color:rgb(50,50,50);
+    font-weight:700;
+    font-size: 12px;
+
+    position:fixed;
+    top: 12px;
+    right:12px;
+    width:24px;
+    height:24px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info .button:hover{
+    cursor:pointer;
+}
+
+.info .content {
+    z-index:10;
+    position:fixed;
+    top: 12px;
+    right:12px;
+    width:550px;
+
+    padding:18px 30px;
+    background: linear-gradient(to bottom, rgb(38, 37, 36), rgb(32,32,32));
+    box-shadow: 2px 2px 8px rgba(0,0,0, .12);
+    border-radius:12px;
+    opacity: .85;
+
+    transition: .3s ease-out;
+    /* transform: translateX(0); */
+}
+
+.content h1{
+    font-family:'Open Sans';
+    font-weight:700;
+    font-size:24px;
+    color:rgb(222, 222, 233);
+    margin-bottom:8px;
+}
+
+
+.content h1 + p {
+    font-family:'Open Sans';
+    font-weight:300;
+    font-size:16px;
+    color: rgb(175, 175, 187);
+    margin-bottom:12px;
+}
+
+
+.info .content * {
+    text-align: left;
+    color: rgb(222, 222, 233);
+}
+
+.hidden{
+    opacity:0 !important;
+    transform: translateX(5px);
+    transition: .3s ease-out;
+}

@@ -218,8 +218,8 @@ function drawLinksBetweenNodes(array){
         if (array[array.indexOf(node) + 1] != undefined){
 
             let node1 = array[array.indexOf(node) + 1];
-            let c1 = createVector(map(noise(0.05, 10, 20), 0 , 1, -150, 150), map(noise(0.1, 2, 87), 0 , 1, -150, 150));
-            let c2 = createVector(map(noise(0.02, 5, 12), 0 , 1, -150, 150), map(noise(0.04, 15, 30), 0 , 1, -150, 150));
+            let c1 = createVector(map(noise(0.05, 1, 2), 0 , 1, -200, 200), map(noise(0.1, 2, 87), 0 , 1, -200, 200));
+            let c2 = createVector(map(noise(0.02, 5, 12), 0 , 1, -200, 200), map(noise(0.04, 15, 30), 0 , 1, -200, 200));
 
             push();
                 strokeWeight(2);
@@ -334,3 +334,20 @@ const hexToRgb = (hex) => {
   }
 
 
+
+
+
+  let info = document.querySelector('.button');
+  let infoContent = document.querySelector('.hidden');
+  info.addEventListener('click', (e) => {
+    infoContent.classList.toggle('hidden');
+    info.classList.toggle('hidden');
+
+    document.querySelector('canvas').addEventListener('click', hideWindow);
+  })
+
+  function hideWindow() {
+    infoContent.classList.toggle('hidden');
+    info.classList.toggle('hidden');
+    document.removeEventListener('click', hideWindow);
+  }

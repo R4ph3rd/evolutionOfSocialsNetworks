@@ -22,7 +22,7 @@
                     "feature": "photos",
                     "date": "25-10-2005",
                     "category": "image & video",
-                    "slug": "photos",
+                    "slug": "imagepost",
                     "desc": "Facebook launches its photos feature with no restrictions on storage (but without the ability to tag friends). "
                 },
                 {
@@ -78,7 +78,7 @@
                     "feature": "Tag",
                     "date": "10-09-2009",
                     "category": "sharing",
-                    "slug": "tag",
+                    "slug": "tagFriends",
                     "desc": "Facebook announces a feature whereby people can @-tag friends in their status updates and comments."
                 },
                 {
@@ -218,7 +218,7 @@
                     "feature": "Instant Articles",
                     "date": "12-05-2015",
                     "category": "feed & content",
-                    "slug": "instant",
+                    "slug": "",
                     "desc": "Facebook launches 'Instant Articles' for Publishers. Publishers who use Instant Articles can opt in to have some of their articles shown to mobile users inside Facebook's app itself, without users having to leave the app and visit the customer's website. Initial launch partners include BuzzFeed, the New York Times, National Geographic and six others. The article as displayed on Facebook mimics the article on the website in terms of layout."
                 },
                 {
@@ -232,7 +232,7 @@
                     "feature": "features for facebook business pages",
                     "date": "06-06-2015",
                     "category": "layout",
-                    "slug": "pages",
+                    "slug": "business",
                     "desc": "Facebook adds more features for pages to make it easier for businesses to use them. These include: allowing pages to display how quickly they respond to messages, allowing pages to send saved replies to messages, allowing pages to use private messages for customer support, and adding buy button integration to pages."
                 },
                 {
@@ -489,7 +489,7 @@
                     "feature": "Image post",
                     "date": "22-06-2010",
                     "category": "image & video",
-                    "slug": "post",
+                    "slug": "imagepost",
                     "desc": "Instagram launches (from Systrom and Krieger) with the hope of facilitating communication through images. It nabs 100K users in one week."
                 },
                 {
@@ -510,7 +510,7 @@
                     "feature": "Tilt-shift on camera",
                     "date": "28-05-2012",
                     "category": "image & video",
-                    "slug": "instant",
+                    "slug": "",
                     "desc": "Instagram includes instant tilt–shift"
                 },
                 {
@@ -538,21 +538,21 @@
                     "feature": "Photo user tagging",
                     "date": "01-05-2013",
                     "category": "image & video",
-                    "slug": "facial recognition",
+                    "slug": "tagFriends",
                     "desc": "Instagram introduces photo tagging and \"Photos of You,\" a new tab on a user’s profile listing every picture he or she is tagged in."
                 },
                 {
                     "feature": "Video sharing",
                     "date": "13-06-2013",
                     "category": "image & video",
-                    "slug": "",
+                    "slug": "video_share",
                     "desc": "Instagram launches video sharing."
                 },
                 {
                     "feature": "Embed links",
                     "date": "01-07-2013",
                     "category": "sharing",
-                    "slug": "",
+                    "slug": "embedLinks",
                     "desc": "Instagram makes it easier to share posts by adding links to embed photos and videos."
                 },
                 {
@@ -580,7 +580,7 @@
                     "feature": "advanced business tools",
                     "date": "21-09-2014",
                     "category": "advertising",
-                    "slug": "",
+                    "slug": "business",
                     "desc": "Instagram makes itself more advertising-friendly by introducing a suite of business tools aimed at brands which offer insights and analytics related to their use of the image-sharing network."
                 },
                 {
@@ -629,7 +629,7 @@
                     "feature": "Analytics on profile",
                     "date": "01-05-2016",
                     "category": "meta",
-                    "slug": "analytics",
+                    "slug": "business",
                     "desc": "Instagram announces that it will launch new business tools – including analytics that allow users to see audience demographics, post impressions, and reach."
                 },
                 {
@@ -655,7 +655,7 @@
                 },
                 {
                     "feature": "Image Zoom",
-                    "date": "02-08-2016",
+                    "date": "22-08-2016",
                     "category": "image & video",
                     "slug": "",
                     "desc": "Instagram brings in Image Zoom, allowing users to zoom into images."
@@ -671,7 +671,7 @@
                     "feature": "Slides posts",
                     "date": "22-02-2017",
                     "category": "image & video",
-                    "slug": "post",
+                    "slug": "",
                     "desc": "Instagram launches a feature allowing users to post multiple photos in one post, in a slideshow-like fashion."
                 },
                 {
@@ -691,7 +691,7 @@
                     "feature": "Video sharing",
                     "date": "14-12-2012",
                     "category": "image & video",
-                    "slug": "videoshare",
+                    "slug": "video_share",
                     "desc": "Snapchat releases video sharing and begins prototyping monetization features."
                 },
                 {
@@ -797,7 +797,7 @@
                     "date": "23-07-2016",
                     "category": "image & video",
                     "slug": "stories",
-                    "desc": "Snapchat announces Memories, a feature that helps people find older content they have posted. By default, any snaps saved to the Camera Roll also get included in Memories, though the setting can be changed. It is also possible to search through old snaps in Memories. Memories itself cannot be accessed by others, but snaps collected from memories can be used as part of Snapchat Stories, that others can see temporarily. This also makes it easy for people to recover their snaps if their device is lost or damaged. Particularly sensitive content can be saved under My Eyes Only with passcode protection, but the content cannot be retrieved if the passcode is lost."
+                    "desc": "Snapchat announces Memories, a feature that helps people find older content they have posted. By default, any snaps saved to the Camera Roll also get included in Memories, though the setting can be changed. It is also possible to search through old snaps in Memories. Memories itself cannot be accessed by others, but snaps collected from memories can be used as part of Snapchat Stories, that others can see temporarily."
                 },
                 {
                     "feature": "Snap Map",
@@ -817,7 +817,7 @@
                     "feature": "Embed links",
                     "date": "20-02-2012",
                     "category": "sharing",
-                    "slug": "link",
+                    "slug": "embedLinks",
                     "desc": "Pinterest releases a \"nopin\" HTML meta tag that allowed websites to opt out of allowing their content to be pinned. Soon (February 24), Flickr implements the code to allow users to opt out of allowing their photos to be pinned."
                 },
                 {
@@ -831,7 +831,7 @@
                     "feature": "Pinterest launches business accounts",
                     "date": "14-10-2012",
                     "category": "advertising",
-                    "slug": "switch",
+                    "slug": "business",
                     "desc": "Pinterest launches business accounts allowing businesses to either convert their existing personal accounts into business accounts, or start from scratch."
                 },
                 {
@@ -859,7 +859,7 @@
                     "feature": "Direct Messaging",
                     "date": "06-08-2014",
                     "category": "feed & content",
-                    "slug": "instant",
+                    "slug": "",
                     "desc": "Pinterest adds a direct messaging feature that allows users to discuss pins privately."
                 },
                 {
@@ -936,7 +936,7 @@
                     "feature": "Video player",
                     "date": "01-08-2016",
                     "category": "image & video",
-                    "slug": "",
+                    "slug": "videoplayer",
                     "desc": "Pinterest launches a video player that lets users and brands upload and store clips of any length straight to the site. It also begins implementing visual search tools on videos."
                 },
                 {
@@ -964,7 +964,7 @@
                     "feature": "HTML embedding videos",
                     "date": "06-07-2005",
                     "category": "for developers",
-                    "slug": "",
+                    "slug": "videoplayer",
                     "desc": ""
                 },
                 {
@@ -1138,7 +1138,7 @@
                     "feature": "LinkedIn Business Accounts",
                     "date": "22-08-2005",
                     "category": "search engine",
-                    "slug": "premium",
+                    "slug": "business",
                     "desc": "LinkedIn launches a premium service, LinkedIn Business Accounts, which gives businesses access to more powerful search tools."
                 },
                 {
