@@ -349,5 +349,5 @@ const hexToRgb = (hex) => {
   function hideWindow() {
     infoContent.classList.toggle('hidden');
     info.classList.toggle('hidden');
-    document.removeEventListener('click', hideWindow);
+    document.querySelector('canvas').removeEventListener('click', hideWindow);
   }
