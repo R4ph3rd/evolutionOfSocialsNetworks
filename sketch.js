@@ -135,17 +135,17 @@ function draw() {
             for (let network of networks){
                 let networkNodesArray = network.changelog.filter ( node => node.slug == slug)
                 slugArray = slugArray.concat(networkNodesArray);
-    
-                network.display();
             }
     
             drawLinksBetweenNodes(slugArray);
         }
-    } else {
-        for (let network of networks){
-            network.display();
-        }
     }
+
+    
+    for (let network of networks){
+        network.display();
+    }
+    
 }
 
 function mouseClicked(){
