@@ -433,7 +433,7 @@
                 {
                     "feature": "Replacement of Favorite button",
                     "date": "03-11-2015",
-                    "category": "react",
+                    "category": "reactions",
                     "slug": "like",
                     "desc": "Twitter replaces the Favorite button with a Like button and the star symbol (used to symbolize favoriting) with a heart symbol. Twitter reports a 6% increase in usage of the feature after the change, and also appears to be experimenting with offering a more diverse set of emojis, prompting commentators to draw parallels with Facebook's Reactions feature."
                 },
